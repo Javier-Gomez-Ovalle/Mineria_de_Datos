@@ -13,7 +13,7 @@ Desarrollo de un modelo predictivo para la detección de anomalías de autentica
 
 El documento correspondiente a las fases iniciales del proyecto se encuentra en el siguiente archivo:
 
-[Fase 1 y 2 - Minería de Datos](./Fase-1-y-2-MINERIA-DE-DATOS.pdf)
+[Fase 1, 2 y 3 - Minería de Datos](./Fase%201%20%202%20y%203%20MINERIA%20DE%20DATOS.pdf)
 
 ## Datasets
 
