@@ -15,9 +15,11 @@ test('Recursos públicos completos y enlaces documentales', {timeout:180000},asy
     const fuentes=new Set();
     for(const seccion of ['contexto','metodologia','supervisados','clustering','comparacion','metodos_numericos']) {
       await page.locator(`nav a[data_seccion="${seccion}"]`).click();
+      const titulos={contexto:'La pregunta se convierte',metodologia:'Fuentes y alcance',supervisados:'OOF global',clustering:'Candidatos históricos',comparacion:'Evaluación final documentada',metodos_numericos:'Interpolación de Lagrange'};
+      await page.waitForFunction(texto=>document.querySelector('main')?.textContent.includes(texto),titulos[seccion]);
       for(const detalle of await page.locator('details').all()) {
-        if(await detalle.locator('summary').innerText()!=='Fuentes documentales') continue;
-        await detalle.locator('summary').click();
+        if(await detalle.getAttribute('open')===null) await detalle.locator(':scope > summary').click();
+        if(await detalle.locator(':scope > summary').innerText()!=='Fuentes documentales') continue;
         for(const a of await detalle.locator('a').all()) {
           assert.equal(await a.getAttribute('target'),'_blank');
           assert.match(await a.getAttribute('rel'),/noopener/);
@@ -27,9 +29,15 @@ test('Recursos públicos completos y enlaces documentales', {timeout:180000},asy
       }
     }
     assert.equal(fuentes.size,18);
+    let limitados=0;
     for(const url of fuentes) {
-      const r=await page.request.get(url); assert.equal(r.status(),200,url);
-      assert.equal(new URL(r.url()).pathname,new URL(url).pathname);
+      let r=await page.request.get(url);
+      if([429,502,503,504].includes(r.status())) {
+        limitados++;
+        r=await page.request.get(url.replace('https://github.com/','https://raw.githubusercontent.com/').replace('/blob/main/','/main/'));
+      } else assert.equal(new URL(r.url()).pathname,new URL(url).pathname);
+      assert.equal(r.status(),200,url);
+      assert.ok((await r.body()).length>0,url);
     }
     await page.goto(new URL('recursos.html',base).href);
     const inventario=JSON.parse(await readFile(new URL('../public/descargas/inventario.json',import.meta.url),'utf8'));
@@ -46,6 +54,6 @@ test('Recursos públicos completos y enlaces documentales', {timeout:180000},asy
     const ppt=await page.request.get(new URL('presentacion/ATO_PRESENTACION_ACADEMICA.pptx',base).href);
     assert.equal(ppt.status(),200);
     assert.deepEqual(await ppt.body(),await readFile(new URL('../public/presentacion/ATO_PRESENTACION_ACADEMICA.pptx',import.meta.url)));
-    console.log('18 enlaces documentales; 15 descargas reales con SHA-256; PPTX idéntico.');
+    console.log(`18 destinos documentales existentes (${limitados} comprobados por raw ante limitación temporal HTTP de la interfaz GitHub); 15 descargas reales con SHA-256; PPTX idéntico.`);
   } finally {await browser.close();}
 });

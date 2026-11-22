@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-11-22",
+  "url": "https://javier-gomez-ovalle.github.io/Mineria_de_Datos/",
+  "pages_commit": "47511f096014a9d1d967251fa92645c36dae4564",
+  "pages_estado": "built",
+  "javascript": {
+    "aprobadas": 25,
+    "fallidas": 0,
+    "omitidas": 0
+  },
+  "python": {
+    "aprobadas": 9,
+    "fallidas": 0,
+    "omitidas": 0
+  },
+  "navegador": {
+    "aprobadas": 8,
+    "fallidas": 0,
+    "omitidas": 0,
+    "nota": "Incluye caso padre y siete subcasos"
+  },
+  "recursos_publicos": {
+    "aprobadas": 1,
+    "fallidas": 0,
+    "omitidas": 0,
+    "documentos": 18,
+    "documentos_html_200": 11,
+    "documentos_raw_200_por_limite_temporal": 7,
+    "descargas_csv_sha256": 15,
+    "pptx_identico": true
+  },
+  "figuras": 58,
+  "secciones": 6,
+  "build": "aprobado",
+  "test_y_predicciones_accedidos": false
+}

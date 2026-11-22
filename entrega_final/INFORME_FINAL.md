@@ -36,7 +36,9 @@ Hallazgo preexistente: `main` ya contenía train, empleados y tablas por usuario
 - 9 pruebas Python aprobadas; 0 fallidas, 0 omitidas. Incluyen equivalencia de fuentes, integridad de 58 figuras, guion y equivalencia exacta de 15 descargas con el catálogo.
 - `npm run build`: aprobado.
 - Chromium sobre la URL pública: 8 casos aprobados (prueba padre y 7 subpruebas), 0 fallos, 0 omisiones. Comprueba carga nativa, seis vistas, filtros, 58 imágenes, visor, móvil, fallo/reintento y ausencia de excepciones JavaScript.
-- Verificación externa adicional de enlaces, descargas y PPTX: pendiente de cerrar tras la publicación de la documentación de esta revisión.
+- Verificación externa adicional: 1 prueba aprobada, 0 fallos y 0 omisiones. Se expandieron las fuentes en las seis secciones; los 18 destinos existen. Once respondieron HTTP 200 en la interfaz GitHub; siete se verificaron mediante su contenido público raw tras respuestas temporales 429/503. No se afirma que esos siete respondieran 200 en la interfaz durante esta comprobación. Se descargaron realmente los 15 CSV en Chromium y se verificaron tamaños y SHA-256; el PPTX público es idéntico a la copia validada. Pages informa build `47511f096014a9d1d967251fa92645c36dae4564` terminado sin errores.
+
+La nueva prueba externa necesitó corregir selectores de desplegables anidados y esperar la vista activa. Tras esas correcciones se ejecutó y pasó; los fallos iniciales no se ocultaron ni se contabilizan como pruebas aprobadas.
 
 No se usó el test para estas comprobaciones. Las pruebas de contenido consultan una lista explícita de informes y agregados autorizados.
 
@@ -47,3 +49,7 @@ Se ajustó la base relativa para el subdirectorio de Pages y se mantuvo la corre
 Las pruebas de extracción histórica completa requieren el archivo académico local autorizado, que incluye material deliberadamente no redistribuido. La copia pública permite construir y probar el frontend con su catálogo incluido, exportar los agregados y reproducir la presentación. Esta distinción evita prometer reproducibilidad de experimentos sin sus datos. No se garantiza disponibilidad indefinida de Pages ni conformidad exhaustiva WCAG: se verificó accesibilidad básica, teclado y disposición móvil.
 
 El árbol ponderado sigue siendo un procedimiento de referencia con rendimiento limitado. No se declara superioridad robusta ni capacidad clínica/productiva. No se entrenaron clasificadores ni se modificaron Fase 3, métricas, umbral, modelos o manifiestos congelados.
+
+## Estado de publicación
+
+Se publicó el contenido autorizado en main (`babe98d`) y el sitio en gh-pages (`47511f0`), sin force push ni reescritura. El cierre documental y la prueba externa corregida quedan en un commit posterior. La carpeta local preexistente `fase04_metodos_numericos/` permanece sin añadir; contiene material que no pertenece a la distribución pública. No se eliminaron archivos ni se incluyeron herramientas locales, cachés o credenciales.
