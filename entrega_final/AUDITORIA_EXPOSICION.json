@@ -52,7 +52,11 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     },
     {
       "archivo": "empleados.csv",
@@ -77,7 +81,11 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     },
     {
       "archivo": "fase04_modelado/mejora_controlada/resultados/distribucion_usuarios_train.csv",
@@ -97,7 +105,11 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     },
     {
       "archivo": "fase04_modelado/mejora_controlada/resultados/metricas_por_usuario.csv",
@@ -121,7 +133,11 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     },
     {
       "archivo": "fase04_modelado/resultados_cv_usuario/asignacion_usuarios.csv",
@@ -143,7 +159,11 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     },
     {
       "archivo": "fase04_modelado/mejora_controlada/resultados/errores_historicos_por_perfil.csv",
@@ -170,10 +190,18 @@
       "http_main_antes": 200,
       "en_pages": false,
       "accion": "Retirar solo del seguimiento; preservar original local",
-      "residual": "Accesible en historial; no purgado"
+      "residual": "Accesible en historial; no purgado",
+      "http_main_despues": 200,
+      "http_historico_17e2c72": 200,
+      "original_local_intacto": true,
+      "http_commit_retirada": 404
     }
   ],
   "aprobada": false,
   "historia_reescrita": false,
-  "respaldo": "Originales locales conservados en las mismas rutas; no se crean copias de test ni bundles generales"
+  "respaldo": "Originales locales conservados en las mismas rutas; no se crean copias de test ni bundles generales",
+  "commit_retirada": "4768052",
+  "http_pages": 200,
+  "http_recursos": 200,
+  "gh_pages_sin_cambios": true
 }

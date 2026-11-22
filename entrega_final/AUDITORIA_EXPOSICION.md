@@ -51,4 +51,14 @@ Referencia técnica: [GitHub — Removing sensitive data from a repository](http
 
 ## Verificación posterior
 
-Pendiente de registrar tras publicar la retirada. El dictamen seguirá siendo **no aprobado** mientras las versiones históricas permanezcan accesibles sin una decisión expresa que acepte su publicación sintética.
+Retirada publicada en `4768052`. Para cada una de las seis rutas se verificó mediante HTTP HEAD, sin descargar su contenido remoto:
+
+| Destino | Resultado de las seis rutas | Interpretación |
+|---|---|---|
+| Commit de retirada `4768052` | 404 | Ausentes del árbol publicado nuevo. |
+| Commit inicial `17e2c72` | 200 | Continúan accesibles históricamente. |
+| Alias raw/main, inmediatamente después del push | 200 | Aún accesible en esta comprobación; compatible con caché/propagación, no se da por inaccesible. |
+
+Los seis archivos locales permanecen idénticos por SHA-256. Pages y recursos devuelven 200; `gh-pages` conserva exactamente `47511f096014a9d1d967251fa92645c36dae4564`. No se modificó frontend ni se repitieron entrenamientos o pruebas de modelos. La verificación pertinente fue de Git, integridad de los seis originales y acceso HTTP. Evidencia por archivo en `AUDITORIA_EXPOSICION.json`.
+
+El dictamen es **no aprobado**: retirar el árbol actual no resuelve la exposición histórica. Se detuvo el procedimiento antes de cualquier reescritura remota, cambio de visibilidad o eliminación. Se requiere autorización adicional para ejecutar la estrategia de limpieza documentada, con respaldo privado y revisión de consecuencias; ni esa operación garantiza retirar copias de terceros.
