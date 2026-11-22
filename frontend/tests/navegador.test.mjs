@@ -31,6 +31,7 @@ test('Inicialización y navegación real en Chromium', {timeout:90000}, async t=
     await t.test('Las seis secciones presentan contenido y generan capturas',async()=>{
       for(const [id,texto] of [['contexto','La pregunta se convierte'],['metodologia','Fuentes y alcance'],['supervisados','OOF global'],['clustering','Candidatos históricos'],['comparacion','Evaluación final documentada'],['metodos_numericos','Interpolación de Lagrange']]) {
         await page.locator(`nav a[data_seccion="${id}"]`).click();
+        await page.locator(`nav a[data_seccion="${id}"][aria-current="page"]`).waitFor();
         await page.waitForFunction(texto=>document.querySelector('main')?.textContent.includes(texto),texto);
         assert.equal(await page.locator('main #reintentar').count(),0);
         assert.equal(await page.locator(`nav a[data_seccion="${id}"]`).getAttribute('aria-current'),'page');
@@ -63,6 +64,7 @@ test('Inicialización y navegación real en Chromium', {timeout:90000}, async t=
       await page.locator('.boton_menu').click();
       assert.equal(await page.locator('.boton_menu').getAttribute('aria-expanded'),'true');
       await page.locator('nav a[data_seccion="contexto"]').click();
+      await page.locator('.boton_menu[aria-expanded="false"]').waitFor();
       assert.equal(await page.locator('.boton_menu').getAttribute('aria-expanded'),'false');
       assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       await page.screenshot({path:fileURLToPath(new URL('contexto_movil.png',carpeta)),fullPage:true});

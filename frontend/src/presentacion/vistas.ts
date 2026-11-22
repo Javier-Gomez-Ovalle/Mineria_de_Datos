@@ -3,6 +3,7 @@ import { crear_aviso, escapar_html } from '../componentes/estructura.js';
 import { secciones, type SeccionAcademica } from './secciones.js';
 import type { EstadoConsulta } from './consulta.js';
 import { estado_inicial } from './consulta.js';
+import { renderizar_datasets } from './datasets.js';
 import { renderizar_metodologia, renderizar_supervisados, renderizar_clustering, renderizar_referencia, renderizar_numericos } from './analiticas.js';
 
 export function renderizar_contexto(catalogo: CatalogoResultados): string {
@@ -24,6 +25,7 @@ export function renderizar_seccion(seccion: SeccionAcademica, catalogo?:Catalogo
   const anterior=secciones[indice-1];
   const siguiente=secciones[indice+1];
   const vistas: Record<string,()=>string> = {
+    datasets:()=>renderizar_datasets(),
     metodologia:()=>renderizar_metodologia(catalogo!),supervisados:()=>renderizar_supervisados(catalogo!,estado),
     clustering:()=>renderizar_clustering(catalogo!,estado),comparacion:()=>renderizar_referencia(catalogo!),metodos_numericos:()=>renderizar_numericos(catalogo!),
   };

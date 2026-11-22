@@ -17,6 +17,8 @@ export const secciones: readonly SeccionAcademica[] = [
     alcance:'K-Means y clustering jerárquico', temas:['K-Means: segmentación por centroides','Ward: estructura jerárquica; Average como contraste exploratorio','Índices internos y perfiles de los grupos']},
   {id:'comparacion', titulo:'Modelo de referencia', descripcion:'Comprender la selección del árbol ponderado y los límites de sus resultados.',
     alcance:'Comparación y evaluación documentada', temas:['Alternativas y extensión con Random Forest','Selección del umbral y evaluación independiente: evidencias distintas','Resultados y limitaciones; sin garantía de utilidad productiva']},
+  {id:'datasets', titulo:'Datasets y exploración de datos', descripcion:'Consultar el entrenamiento publicado, sus archivos originales y la documentación para reutilizarlo.',
+    alcance:'Recursos académicos en Hugging Face', temas:['Entrenamiento definitivo de Fase 4','Visor, descarga y trazabilidad']},
   {id:'metodos_numericos', titulo:'Métodos numéricos', descripcion:'Dos ejercicios complementarios para describir relaciones y explorar interpolación.',
     alcance:'Regresión lineal e interpolación de Lagrange', temas:['Regresión principal y sensibilidad diagnóstica separadas','Interpolación dentro del intervalo seleccionado','Unidades explícitas, sin causalidad ni extrapolación']},
 ];

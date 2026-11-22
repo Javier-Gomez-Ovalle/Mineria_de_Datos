@@ -7,7 +7,7 @@ import { renderizar_contexto, renderizar_seccion, renderizar_error } from '../.t
 
 const catalogo=JSON.parse(await readFile(new URL('../public/contenido/catalogo.json',import.meta.url),'utf8'));
 test('Todas las rutas son únicas y resolubles, incluidas visitas directas',()=>{
-  assert.equal(new Set(secciones.map(s=>s.id)).size,6);
+  assert.equal(new Set(secciones.map(s=>s.id)).size,7);
   for(const seccion of secciones) assert.equal(resolver_seccion('#'+seccion.id),seccion);
   for(const ruta of ['', '#desconocido','#<script>','#__proto__']) assert.equal(resolver_seccion(ruta).id,'contexto');
 });

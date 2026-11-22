@@ -65,3 +65,7 @@ Se conservan los reportes anteriores como hist?ricos. La revisi?n final ejecut? 
 Para una copia p?blica: `npm ci`, `npm test`, `npm run build` y `npm run dev`. El cat?logo y las figuras ya est?n incluidos: no es necesario regenerarlos. `python -B scripts/preparar_descargas.py` vuelve a exportar los 15 CSV agregados sin ajustar modelos. La extracci?n/equivalencia hist?rica completa requiere el archivo acad?mico local autorizado, cuyos informes num?ricos contienen referencias individuales y no se distribuyen. En la copia p?blica puede ejecutarse `python -B -m unittest discover -s tests -p test_descargas.py -v` sin ese archivo.
 
 La generaci?n de PowerPoint se documenta en `../entrega_final/INFORME_FINAL.md`. Las dos fuentes de m?todos num?ricos enlazan res?menes p?blicos expresamente rotulados; no reemplazan los informes hist?ricos originales.
+
+## Integración de Hugging Face
+
+La ruta [`#datasets`](https://javier-gomez-ovalle.github.io/Mineria_de_Datos/#datasets) incorpora el visor remoto del entrenamiento y enlaces a sus archivos y documentación. No añade observaciones al catálogo local. Arquitectura, límites y validación previa a la publicación: [REPORTE_INTEGRACION_HUGGINGFACE.md](REPORTE_INTEGRACION_HUGGINGFACE.md). Las capturas y los registros de ejecución permanecen locales. El despliegue conserva GitHub Pages desde la raíz de `gh-pages`; en `main` se incluyen únicamente fuentes, pruebas y documentación de esta integración.
