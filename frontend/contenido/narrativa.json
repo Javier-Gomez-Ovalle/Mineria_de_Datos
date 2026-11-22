@@ -1,0 +1,18 @@
+{
+  "fuente": "Fase-1-y-2-MINERIA-DE-DATOS.pdf",
+  "pagina": 7,
+  "sha256": "f9b6afbddc24c16d33c8b82cc3865e9a9eadc5efb617baec6005a8e49209365c",
+  "normalizacion": "Espacios y saltos de línea; IP- País unido como IP-País. Sin reformulación.",
+  "objetivo_general": "Desarrollar un modelo predictivo basado en minería de datos para identificar inicios de sesión sospechosos en el hospital, ayudando a detectar de forma automática cuándo un atacante externo está intentando suplantar la identidad de un empleado.",
+  "objetivos_especificos": [
+    "Fusionar tres fuentes de datos independientes: el registro histórico de autenticaciones (RBA Dataset), el catálogo de geolocalización IP-País (IPinfo) y el maestro sintético de personal hospitalario en un único archivo de trabajo en Python utilizando la librería Pandas.",
+    "Crear variables de comportamiento basadas en ciberseguridad, como el número de intentos fallidos para detectar “fuerza bruta” y la ubicación geográfica para detectar \"viajes imposibles\".",
+    "Entrenar un algoritmo de Árbol de Decisión que sea fácil de entender y graficar, permitiendo explicar de manera clara y visual por qué el sistema clasifica un acceso como normal o como ataque.",
+    "Evaluar el rendimiento del modelo utilizando métricas específicas para datos desbalanceados, esto con el fin de garantizar una alta efectividad en la detección de amenazas reales sin ir a saturar el sistema con falsas alarmas."
+  ],
+  "alcance": "Caso hospitalario académico simulado; no validación operativa.",
+  "despliegue": {
+    "repositorio": "https://github.com/Javier-Gomez-Ovalle/Mineria_de_Datos",
+    "frontend": "No desplegado; base documental y contrato de datos."
+  }
+}

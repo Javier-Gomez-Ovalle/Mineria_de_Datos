@@ -1,0 +1,14 @@
+{
+  "name": "ato_evidencia_academica",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsc -p tsconfig.tests.json && node --test tests/contratos.test.mjs tests/presentacion.test.mjs tests/integracion.test.mjs",
+    "preparar": "python -B scripts/preparar_contenido.py"
+  },
+  "devDependencies": {"typescript": "5.9.3", "vite": "7.2.2"},
+  "engines": {"node": "^20.19.0 || >=22.12.0"}
+}

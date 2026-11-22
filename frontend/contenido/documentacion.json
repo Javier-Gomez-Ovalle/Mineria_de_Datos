@@ -1,0 +1,123 @@
+[
+  {
+    "id": "datos",
+    "titulo": "Fuentes y alcance de los datos",
+    "texto": "RBA contiene eventos sintetizados a partir de comportamiento real. IPinfo es un catálogo de redes reales aplicado a esos eventos; el maestro de personal hospitalario es sintético (Faker). La geografía enriquecida no acredita desplazamientos reales. RBA: CC BY 4.0; IPinfo: CC BY-SA 4.0 según la documentación del proyecto. La edición exacta de IPinfo no está acreditada.",
+    "fuentes": [
+      "docs/PROCEDENCIA_Y_LICENCIAS.md"
+    ]
+  },
+  {
+    "id": "preparacion",
+    "titulo": "Preparación, corrección y partición",
+    "texto": "La reconciliación corrigió 90 etiquetas sin cambiar las demás columnas. El conjunto corregido documentado tiene 57.420 eventos, 2.000 usuarios y 45 ATO. Partición aproximada 80/20 por usuario, estratificada por presencia de ATO, semilla 42. Train: 46.305 eventos, 1.600 usuarios y 36 ATO de 34 usuarios. No se eliminan eventos para equilibrar. Los conteos de la partición reservada se consultan solo en el informe histórico.",
+    "fuentes": [
+      "INFORME_CORRECCION_TARGET_FASE03.md",
+      "INFORME_PARTICION_FASE04.md"
+    ]
+  },
+  {
+    "id": "predictores",
+    "titulo": "Seis predictores y transformaciones",
+    "texto": "failed_attempts_15min y failed_attempts_1h: conteos; time_since_previous_login_hours: horas; has_previous_login: indicador; Device Type y Country: categorías. Imputación por mediana y One-Hot con desconocidas ignoradas; árbol sin escalado, GaussianNB con log1p, KNN con log1p y StandardScaler de las magnitudes numéricas. Ajuste solo en cada subtrain. Identificadores, target, atributos aleatorios de empleados, Login Successful, Is Attack IP e Impossible Travel quedan fuera de X.",
+    "fuentes": [
+      "INFORME_PREPROCESAMIENTO_FASE04.md",
+      "INFORME_REVISION_IMPOSSIBLE_TRAVEL_FASE04.md",
+      "INFORME_MODELADO_SUPERVISADO_FASE04.md"
+    ]
+  },
+  {
+    "id": "cv1",
+    "titulo": "CV1: estratificación por evento con grupos",
+    "texto": "StratifiedGroupKFold, cinco folds, shuffle=True, random_state=42. Usuarios enteros por fold; estratificación aproximada por eventos. Usuarios positivos por validación: 9, 8, 1, 8, 8. Umbral fijo 0,5. No interpretar las diferencias con CV2 como mejoras del algoritmo.",
+    "fuentes": [
+      "INFORME_MODELADO_SUPERVISADO_FASE04.md"
+    ]
+  },
+  {
+    "id": "cv2",
+    "titulo": "CV2: estratificación por usuario",
+    "texto": "StratifiedKFold sobre la tabla de usuarios ATO/no ATO, cinco folds, shuffle=True, random_state=42; expansión posterior a eventos. Usuarios positivos por fold: 6, 7, 7, 7, 7. Mismos modelos y umbral 0,5; ningún usuario compartido entre ajuste y validación.",
+    "fuentes": [
+      "INFORME_SEGUNDA_VALIDACION_FASE04.md"
+    ]
+  },
+  {
+    "id": "anidada",
+    "titulo": "Validación anidada: cinco folds externos y tres internos",
+    "texto": "Dentro de cada entrenamiento externo se generan OOF internas y se selecciona umbral por F1 agrupado por evento. Empates: cercanía a 0,5, después mayor umbral; entre variantes, orden histórico. Se congelan decisiones antes de evaluar el fold externo. Regla aprendida y regla fija a 0,5 son resultados distintos; el selector conjunto puede elegir una familia diferente por fold.",
+    "fuentes": [
+      "INFORME_VALIDACION_ANIDADA_FASE04.md"
+    ]
+  },
+  {
+    "id": "extension_rf",
+    "titulo": "Random Forest: extensión controlada",
+    "texto": "Extensión sobre las particiones anidadas históricas. Cuatro configuraciones: max_depth en [8, None] y min_samples_leaf en [1, 10]. 100 árboles, max_features=sqrt, bootstrap=True, class_weight=balanced_subsample, random_state=42, n_jobs=2. Configuración y umbral se seleccionan internamente. El selector ampliado eligió bosque en los cinco folds; esto no demuestra utilidad operativa.",
+    "fuentes": [
+      "INFORME_DECISION_MODELO_FASE04.md",
+      "fase04_modelado/mejora_controlada/ajuste.py",
+      "fase04_modelado/mejora_controlada/contratos.py"
+    ]
+  },
+  {
+    "id": "arbol",
+    "titulo": "Árbol de decisión",
+    "texto": "Divide el espacio mediante condiciones que pueden explicarse como reglas. Baseline y ponderado: criterion=gini, splitter=best, max_depth=None, min_samples_split=2, min_samples_leaf=1, ccp_alpha=0, random_state=42. Ponderado usa class_weight=balanced. Es interpretable como estructura de reglas, pero sin poda puede sobreajustar; ponderar puede aumentar tanto detecciones como falsas alarmas. Interpretabilidad no demuestra causalidad.",
+    "fuentes": [
+      "INFORME_MODELADO_SUPERVISADO_FASE04.md"
+    ]
+  },
+  {
+    "id": "gnb",
+    "titulo": "Gaussian Naive Bayes",
+    "texto": "Combina verosimilitudes gaussianas bajo independencia condicional aproximada. priors=None, var_smoothing=1e-9. Variante ponderada: sample_weight=n_subtrain/(2*n_clase), sin usar frecuencias de validación. Entrenamiento sencillo y rápido; dummies no gaussianas y ventanas correlacionadas limitan los supuestos. Un recall alto acompañado de muchas falsas alarmas no acredita utilidad.",
+    "fuentes": [
+      "INFORME_MODELADO_SUPERVISADO_FASE04.md"
+    ]
+  },
+  {
+    "id": "knn",
+    "titulo": "KNN y Random Oversampling",
+    "texto": "Clasifica por voto de vecinos en el espacio transformado: n_neighbors=5, weights=uniform, metric=euclidean, algorithm=brute, n_jobs=2. La variante ROS usa sampling_strategy=1.0 y random_state=42 solo en subtrain transformado. Depende de distancias y escala, y su predicción puede ser costosa. AP mide ranking: un AP relativamente alto puede coexistir con cero detecciones al umbral 0,5.",
+    "fuentes": [
+      "INFORME_MODELADO_SUPERVISADO_FASE04.md"
+    ]
+  },
+  {
+    "id": "clustering",
+    "titulo": "Exploración no supervisada",
+    "texto": "KMeans se ajusta sobre train completo; K=2 seleccionado. n_init=10, max_iter=300, semilla 42; estabilidad con 42, 43 y 44. Jerárquico: muestra uniforme de 4.000 eventos sin reemplazo, semilla 42; Ward K=2 protagonista. Average K=2, con grupos 3.983/17, es contraste exploratorio. Silhouette usa muestra de 2.000; DB/CH utilizan la población de cada procedimiento. No se usa el target para elegir K; descripción externa de ATO posterior no equivale a clasificación.",
+    "fuentes": [
+      "INFORME_CLUSTERING_FASE04.md",
+      "fase04_clustering/ejecutar.py"
+    ]
+  },
+  {
+    "id": "referencia",
+    "titulo": "Selección de referencia y límites",
+    "texto": "El árbol ponderado presenta un compromiso retrospectivo entre F1 y falsas alarmas en reglas aprendidas, no un ganador robusto universal. La referencia se congela con umbral elegido en OOF de tres árboles; después se ajusta un único árbol con todo train. La escala de probabilidades puede cambiar. El F1 utilizado para seleccionar el umbral no estima rendimiento independiente. Random Forest mostró ranking relativo sin un mejor equilibrio de detección y falsas alarmas.",
+    "fuentes": [
+      "INFORME_DECISION_MODELO_FASE04.md",
+      "fase04_modelado/recuperacion_referencia_v1_20261122/INFORME_RECUPERACION_TECNICA_FASE04.md"
+    ]
+  },
+  {
+    "id": "conclusiones",
+    "titulo": "Evaluación cerrada y conclusiones",
+    "texto": "La evaluación final documentada detectó 1 de 9 ATO y omitió 8, con 12 falsas alarmas. La baja sensibilidad y el pequeño número de usuarios positivos impiden afirmar aptitud productiva. El aporte es una comparación trazable y una evaluación honesta, no una garantía de seguridad. Inestabilidad, datos sintéticos, exclusiones geográficas y exploración repetida de train limitan generalización. Recoger evidencia adicional o mejorar señales serían propuestas futuras, no logros realizados.",
+    "fuentes": [
+      "fase04_modelado/evaluacion_final_test_20261122/INFORME_EVALUACION_FINAL_TEST_FASE04.md",
+      "INFORME_DIAGNOSTICO_CAPACIDAD_PREDICTIVA_FASE04.md"
+    ]
+  },
+  {
+    "id": "numericos",
+    "titulo": "Dos ejercicios, dos interpretaciones",
+    "texto": "Regresión principal descriptiva con todos los pares válidos; concentración en (0,0) y extremos influyen en el ajuste. Sensibilidad usa únicamente distancias positivas y no reemplaza el ajuste principal. Velocidad se construye a partir de distancia/tiempo: asociación no implica causalidad. Lagrange utiliza cuartiles de distancias distintas y mediana inferior de velocidad dentro de cada nivel; la revisión histórica verificó tres registros reales. El polinomio solo se evalúa dentro del intervalo, sin capacidad predictiva general ni extrapolación.",
+    "fuentes": [
+      "fase04_metodos_numericos/resultados/INFORME_REGRESION_INTERPOLACION_FASE04.md",
+      "fase04_metodos_numericos/revision_complementaria/INFORME_REVISION_COMPLEMENTARIA.md"
+    ]
+  }
+]

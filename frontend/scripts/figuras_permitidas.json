@@ -1,0 +1,524 @@
+[
+  {
+    "id": "cv1_confusion_arbol_baseline",
+    "protocolo": "cv1",
+    "modelo": "arbol_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_arbol_baseline.png",
+    "titulo": "Matriz de confusión: Árbol baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_confusion_arbol_ponderado",
+    "protocolo": "cv1",
+    "modelo": "arbol_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_arbol_ponderado.png",
+    "titulo": "Matriz de confusión: Árbol ponderado",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_confusion_gnb_baseline",
+    "protocolo": "cv1",
+    "modelo": "gnb_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_gnb_baseline.png",
+    "titulo": "Matriz de confusión: GaussianNB baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_confusion_gnb_ponderado",
+    "protocolo": "cv1",
+    "modelo": "gnb_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_gnb_ponderado.png",
+    "titulo": "Matriz de confusión: GaussianNB ponderado",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_confusion_knn_baseline",
+    "protocolo": "cv1",
+    "modelo": "knn_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_knn_baseline.png",
+    "titulo": "Matriz de confusión: KNN baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_confusion_knn_ros",
+    "protocolo": "cv1",
+    "modelo": "knn_ros",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/confusion_knn_ros.png",
+    "titulo": "Matriz de confusión: KNN con ROS",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv1_comparacion_metricas",
+    "protocolo": "cv1",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/comparacion_metricas.png",
+    "titulo": "Comparación de métricas",
+    "descripcion": "Precision, Recall, F1 y AP globales; escala adimensional. Ninguna variante omitida."
+  },
+  {
+    "id": "cv1_curvas_precision_recall",
+    "protocolo": "cv1",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/curvas_precision_recall.png",
+    "titulo": "Curvas Precision–Recall",
+    "descripcion": "AP histórica; incluye detalle con escala logarítmica. Las curvas coincidentes pueden superponerse."
+  },
+  {
+    "id": "cv1_estabilidad_folds",
+    "protocolo": "cv1",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/estabilidad_folds.png",
+    "titulo": "Estabilidad entre folds",
+    "descripcion": "Resultados individuales de los cinco folds, no cinco experimentos independientes."
+  },
+  {
+    "id": "cv1_variabilidad_folds",
+    "protocolo": "cv1",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/variabilidad_folds.png",
+    "titulo": "Variabilidad entre folds",
+    "descripcion": "Dispersión histórica de las métricas; no implica intervalos de confianza."
+  },
+  {
+    "id": "cv1_falsos_positivos_negativos",
+    "protocolo": "cv1",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados/graficas/falsos_positivos_negativos.png",
+    "titulo": "Falsas alarmas y omisiones",
+    "descripcion": "FP y FN en eventos; las diferencias de escala se conservan."
+  },
+  {
+    "id": "cv2_confusion_arbol_baseline",
+    "protocolo": "cv2",
+    "modelo": "arbol_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_arbol_baseline.png",
+    "titulo": "Matriz de confusión: Árbol baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_confusion_arbol_ponderado",
+    "protocolo": "cv2",
+    "modelo": "arbol_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_arbol_ponderado.png",
+    "titulo": "Matriz de confusión: Árbol ponderado",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_confusion_gnb_baseline",
+    "protocolo": "cv2",
+    "modelo": "gnb_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_gnb_baseline.png",
+    "titulo": "Matriz de confusión: GaussianNB baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_confusion_gnb_ponderado",
+    "protocolo": "cv2",
+    "modelo": "gnb_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_gnb_ponderado.png",
+    "titulo": "Matriz de confusión: GaussianNB ponderado",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_confusion_knn_baseline",
+    "protocolo": "cv2",
+    "modelo": "knn_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_knn_baseline.png",
+    "titulo": "Matriz de confusión: KNN baseline",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_confusion_knn_ros",
+    "protocolo": "cv2",
+    "modelo": "knn_ros",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/confusion_knn_ros.png",
+    "titulo": "Matriz de confusión: KNN con ROS",
+    "descripcion": "Conteos absolutos OOF a umbral 0,5; filas reales, columnas predichas."
+  },
+  {
+    "id": "cv2_comparacion_metricas",
+    "protocolo": "cv2",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/comparacion_metricas.png",
+    "titulo": "Comparación de métricas",
+    "descripcion": "Precision, Recall, F1 y AP globales; escala adimensional. Ninguna variante omitida."
+  },
+  {
+    "id": "cv2_curvas_precision_recall",
+    "protocolo": "cv2",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/curvas_precision_recall.png",
+    "titulo": "Curvas Precision–Recall",
+    "descripcion": "AP histórica; incluye detalle con escala logarítmica. Las curvas coincidentes pueden superponerse."
+  },
+  {
+    "id": "cv2_estabilidad_folds",
+    "protocolo": "cv2",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/estabilidad_folds.png",
+    "titulo": "Estabilidad entre folds",
+    "descripcion": "Resultados individuales de los cinco folds, no cinco experimentos independientes."
+  },
+  {
+    "id": "cv2_variabilidad_folds",
+    "protocolo": "cv2",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/variabilidad_folds.png",
+    "titulo": "Variabilidad entre folds",
+    "descripcion": "Dispersión histórica de las métricas; no implica intervalos de confianza."
+  },
+  {
+    "id": "cv2_falsos_positivos_negativos",
+    "protocolo": "cv2",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/resultados_cv_usuario/graficas/falsos_positivos_negativos.png",
+    "titulo": "Falsas alarmas y omisiones",
+    "descripcion": "FP y FN en eventos; las diferencias de escala se conservan."
+  },
+  {
+    "id": "anidada_02_confusion_arbol_baseline",
+    "protocolo": "anidada",
+    "modelo": "arbol_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_baseline.png",
+    "titulo": "Confusiones: Árbol baseline",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_arbol_ponderado",
+    "protocolo": "anidada",
+    "modelo": "arbol_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_ponderado.png",
+    "titulo": "Confusiones: Árbol ponderado",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_gnb_baseline",
+    "protocolo": "anidada",
+    "modelo": "gnb_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_baseline.png",
+    "titulo": "Confusiones: GaussianNB baseline",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_gnb_ponderado",
+    "protocolo": "anidada",
+    "modelo": "gnb_ponderado",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_ponderado.png",
+    "titulo": "Confusiones: GaussianNB ponderado",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_knn_baseline",
+    "protocolo": "anidada",
+    "modelo": "knn_baseline",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_baseline.png",
+    "titulo": "Confusiones: KNN baseline",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_knn_ros",
+    "protocolo": "anidada",
+    "modelo": "knn_ros",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_ros.png",
+    "titulo": "Confusiones: KNN con ROS",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_02_confusion_selector_conjunto",
+    "protocolo": "anidada",
+    "modelo": "selector_conjunto",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_selector_conjunto.png",
+    "titulo": "Confusiones: Selector conjunto",
+    "descripcion": "Dos paneles: regla aprendida internamente y referencia a 0,5. Conteos externos OOF."
+  },
+  {
+    "id": "anidada_01_metricas_globales",
+    "protocolo": "anidada",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/01_metricas_globales.png",
+    "titulo": "Regla aprendida frente a 0,5",
+    "descripcion": "Precision, Recall y F1 externos; comparación de reglas dentro de la validación anidada."
+  },
+  {
+    "id": "anidada_03_umbrales",
+    "protocolo": "anidada",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/03_umbrales.png",
+    "titulo": "Umbrales por fold",
+    "descripcion": "Umbrales aprendidos internamente. Pequeños cambios de score no garantizan decisiones equivalentes."
+  },
+  {
+    "id": "anidada_04_selector",
+    "protocolo": "anidada",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/04_selector.png",
+    "titulo": "Selección interna de variantes",
+    "descripcion": "Frecuencia de selección y F1 externo; no es elección retrospectiva de ganador."
+  },
+  {
+    "id": "anidada_05_variabilidad",
+    "protocolo": "anidada",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/05_variabilidad.png",
+    "titulo": "Variabilidad externa",
+    "descripcion": "Cada punto corresponde a un fold; métricas adimensionales."
+  },
+  {
+    "id": "anidada_07_conteos",
+    "protocolo": "anidada",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_modelado/validacion_anidada/resultados/graficas/07_conteos.png",
+    "titulo": "Errores por procedimiento",
+    "descripcion": "Conteos de detecciones, falsas alarmas y omisiones."
+  },
+  {
+    "id": "extension_rf_confusion_arbol_baseline",
+    "protocolo": "extension_rf",
+    "modelo": "arbol_baseline",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_arbol_baseline.png",
+    "titulo": "Confusión: Árbol baseline",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_arbol_ponderado",
+    "protocolo": "extension_rf",
+    "modelo": "arbol_ponderado",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_arbol_ponderado.png",
+    "titulo": "Confusión: Árbol ponderado",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_gnb_baseline",
+    "protocolo": "extension_rf",
+    "modelo": "gnb_baseline",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_gnb_baseline.png",
+    "titulo": "Confusión: GaussianNB baseline",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_gnb_ponderado",
+    "protocolo": "extension_rf",
+    "modelo": "gnb_ponderado",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_gnb_ponderado.png",
+    "titulo": "Confusión: GaussianNB ponderado",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_knn_baseline",
+    "protocolo": "extension_rf",
+    "modelo": "knn_baseline",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_knn_baseline.png",
+    "titulo": "Confusión: KNN baseline",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_knn_ros",
+    "protocolo": "extension_rf",
+    "modelo": "knn_ros",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_knn_ros.png",
+    "titulo": "Confusión: KNN con ROS",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_random_forest",
+    "protocolo": "extension_rf",
+    "modelo": "random_forest",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_random_forest.png",
+    "titulo": "Confusión: Random Forest",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_selector_historico",
+    "protocolo": "extension_rf",
+    "modelo": "selector_historico",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_selector_historico.png",
+    "titulo": "Confusión: Selector histórico",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_confusion_selector_ampliado",
+    "protocolo": "extension_rf",
+    "modelo": "selector_ampliado",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/confusion_selector_ampliado.png",
+    "titulo": "Confusión: Selector ampliado",
+    "descripcion": "OOF externo con regla aprendida internamente. Esta figura no representa la regla fija a 0,5."
+  },
+  {
+    "id": "extension_rf_comparacion_metricas",
+    "protocolo": "extension_rf",
+    "modelo": "todos",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/comparacion_metricas.png",
+    "titulo": "Extensión controlada: comparación",
+    "descripcion": "Reglas aprendidas: Precision, Recall, F1 y F2; no accuracy."
+  },
+  {
+    "id": "extension_rf_estabilidad_folds",
+    "protocolo": "extension_rf",
+    "modelo": "todos",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/estabilidad_folds.png",
+    "titulo": "Estabilidad de la extensión",
+    "descripcion": "Cinco folds; dispersión y AP por fold, incluida la familia elegida."
+  },
+  {
+    "id": "extension_rf_pr_por_fold",
+    "protocolo": "extension_rf",
+    "modelo": "todos",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/pr_por_fold.png",
+    "titulo": "Precision–Recall por fold",
+    "descripcion": "Comparar dentro de cada fold; no asumir calibración común entre estimadores."
+  },
+  {
+    "id": "extension_rf_bosque_por_fold",
+    "protocolo": "extension_rf",
+    "modelo": "todos",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/bosque_por_fold.png",
+    "titulo": "Random Forest por fold",
+    "descripcion": "Detecciones, omisiones y falsas alarmas de las decisiones congeladas."
+  },
+  {
+    "id": "extension_rf_falsas_alarmas_omisiones",
+    "protocolo": "extension_rf",
+    "modelo": "todos",
+    "regla": "aprendido",
+    "fuente": "fase04_modelado/mejora_controlada/resultados/graficas/falsas_alarmas_omisiones.png",
+    "titulo": "Falsas alarmas y omisiones",
+    "descripcion": "Conteos absolutos, conservando GaussianNB y sus falsas alarmas."
+  },
+  {
+    "id": "clustering_seleccion_interna",
+    "protocolo": "clustering",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/seleccion_interna.png",
+    "titulo": "Selección de K",
+    "descripcion": "Índices internos adimensionales. KMeans y jerárquicos usan poblaciones distintas."
+  },
+  {
+    "id": "clustering_estabilidad_kmeans",
+    "protocolo": "clustering",
+    "modelo": "kmeans",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/estabilidad_kmeans.png",
+    "titulo": "Estabilidad de K-Means",
+    "descripcion": "ARI entre semillas: acuerdo de agrupaciones, no acierto en clasificación."
+  },
+  {
+    "id": "clustering_perfiles_kmeans_2",
+    "protocolo": "clustering",
+    "modelo": "kmeans",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/perfiles_kmeans_2.png",
+    "titulo": "Perfiles de K-Means",
+    "descripcion": "Perfiles agregados de K=2; preservar unidades de cada variable."
+  },
+  {
+    "id": "clustering_externa_kmeans_2",
+    "protocolo": "clustering",
+    "modelo": "kmeans",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/externa_kmeans_2.png",
+    "titulo": "ATO descriptivo en grupos K-Means",
+    "descripcion": "Distribución agregada posterior a la selección; no métricas de un clasificador."
+  },
+  {
+    "id": "clustering_dendrograma_ward",
+    "protocolo": "clustering",
+    "modelo": "ward",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/dendrograma_ward.png",
+    "titulo": "Dendrograma de Ward",
+    "descripcion": "Submuestra de 4.000; 25 ramas terminales por legibilidad. Altura de enlace en espacio transformado."
+  },
+  {
+    "id": "clustering_perfiles_ward_2",
+    "protocolo": "clustering",
+    "modelo": "ward",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/perfiles_ward_2.png",
+    "titulo": "Perfiles de Ward",
+    "descripcion": "Perfiles agregados del corte K=2; Ward es el procedimiento principal."
+  },
+  {
+    "id": "clustering_externa_ward_2",
+    "protocolo": "clustering",
+    "modelo": "ward",
+    "regla": "todas",
+    "fuente": "fase04_clustering/resultados/graficas/externa_ward_2.png",
+    "titulo": "ATO descriptivo en grupos Ward",
+    "descripcion": "Descripción de la muestra, no evaluación predictiva externa."
+  },
+  {
+    "id": "numericos_regresion_lineal",
+    "protocolo": "numericos",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_metodos_numericos/resultados/graficas/regresion_lineal.png",
+    "titulo": "Regresión principal",
+    "descripcion": "5.662 pares válidos; distancia en km y velocidad en km/h. Conserva ceros y extremos."
+  },
+  {
+    "id": "numericos_interpolacion_lagrange",
+    "protocolo": "numericos",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_metodos_numericos/resultados/graficas/interpolacion_lagrange.png",
+    "titulo": "Interpolación de Lagrange",
+    "descripcion": "Curva histórica dentro del intervalo seleccionado; distancia en km y velocidad en km/h."
+  },
+  {
+    "id": "numericos_comparacion_ceros_extremos",
+    "protocolo": "numericos",
+    "modelo": "todos",
+    "regla": "todas",
+    "fuente": "fase04_metodos_numericos/revision_complementaria/comparacion_ceros_extremos.png",
+    "titulo": "Sensibilidad: ceros y valores extremos",
+    "descripcion": "Visualización complementaria histórica, no sustituto del ajuste principal."
+  }
+]

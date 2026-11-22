@@ -503,3 +503,32 @@
 !/requirements.txt
 !/tests/test_publicacion.py
 !/tools/verificar_publicacion.py
+
+# Ejercicios complementarios: train, regresión e interpolación.
+!/fase04_metodos_numericos/**
+/fase04_metodos_numericos/**/__pycache__/
+/fase04_metodos_numericos/**/.pytest_cache/
+
+# Fase 5: base documental y contrato público.
+!/frontend/**
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.tests/
+/frontend/**/__pycache__/
+/frontend/**/.pytest_cache/
+!/docs/PLAN_FRONTEND_FASE05.md
+!/docs/GUIÓN_PRESENTACION_ACADEMICA.md
+!/docs/REPORTE_ETAPA_INICIAL_FASE05.md
+
+# Entrega p?blica: lista expl?cita; herramientas y comprobaciones locales excluidas.
+!/docs/publicacion/*.md
+!/entrega_final/*.md
+!/entrega_final/*.json
+!/entrega_final/*.py
+!/entrega_final/requirements-presentacion.txt
+!/entrega_final/ATO_PRESENTACION_ACADEMICA.pptx
+/entrega_final/.herramientas/
+/entrega_final/.pages/
+/entrega_final/renderizado/
+/entrega_final/__pycache__/
+/frontend/verificacion_navegador/
