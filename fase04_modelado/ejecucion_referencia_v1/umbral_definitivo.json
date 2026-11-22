@@ -1,0 +1,20 @@
+{
+  "procedimiento": "referencia_arbol_ponderado_v1",
+  "umbral": 0.9976439543869569,
+  "politica": "umbral",
+  "TP": 8,
+  "FP": 48,
+  "TN": 46221,
+  "FN": 28,
+  "f1": 0.17391304347826086,
+  "f1_numerador": 4,
+  "f1_denominador": 23,
+  "decisiones_sha256": "040dd2955f0351561fdf466b87ea7d8358a5f8e72dfb91d3081f7500b57aaa87",
+  "umbrales_empatados": [
+    0.9976439543869569
+  ],
+  "oof_sha256": "28a1d200f65cb72229b34cd41cb888f3698e785eb680229e944cd5f537c73a57",
+  "regla": "score >= umbral",
+  "origen": "OOF de tres modelos internos distintos; no calibrados",
+  "valor_final_congelado": true
+}

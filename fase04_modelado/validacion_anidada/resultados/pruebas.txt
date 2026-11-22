@@ -1,0 +1,8 @@
+Fecha: 2026-11-21 (America/Bogota)
+Comando: python -B -m pytest -p no:cacheprovider -q fase04_modelado/validacion_anidada/tests
+Primera ejecución, contratos y resultados: 18 passed in 12.69s
+Segunda ejecución, incluyendo configuración y gráficos: 20 passed in 12.28s
+Sin fallos en ambas ejecuciones.
+Cada pasada incluye seis ajustes pequeños sintéticos (uno por variante): 12 ajustes de prueba en total, aparte de los 120 experimentales.
+No se repitió el experimento de 120 ajustes. No se entrenó modelo final.
+Los intentos de abrir test en la prueba de bloqueo fueron rechazados por la guardia antes de acceder al sistema de archivos.

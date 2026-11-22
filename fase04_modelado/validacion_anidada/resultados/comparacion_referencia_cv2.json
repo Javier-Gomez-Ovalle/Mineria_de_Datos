@@ -1,0 +1,32 @@
+[
+  {
+    "modelo": "arbol_baseline",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 9.280770596475918e-17
+  },
+  {
+    "modelo": "arbol_ponderado",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 1.1102230246251565e-16
+  },
+  {
+    "modelo": "gnb_baseline",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 0.0
+  },
+  {
+    "modelo": "gnb_ponderado",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 0.0
+  },
+  {
+    "modelo": "knn_baseline",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 0.0
+  },
+  {
+    "modelo": "knn_ros",
+    "referencia_cv2_coincide": true,
+    "diferencia_score_max": 0.0
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "artefactos_verificados": {
+    "auditoria_modelo_final.json": "e9f035983f714a8567d7a954a2f6c096b32409fd78a3410cdfa850e4af7b00d3",
+    "esquema_final.json": "1c4de452f1613f9e02ad3e1d2eb989ebb0c87b1b21e3134bc041c7c59eb584aa",
+    "evidencia_recarga.json": "93d07a2620382c5a9e9d6e2e148fd8940552590751b84c9d11c50ad1df94deba",
+    "INFORME_RECUPERACION_TECNICA_FASE04.md": "a13ffce420504cec1581339d744141d40645bf5224a7acbc8befb96e7aed1eee",
+    "inventario_previo.json": "359569d89162274e754772f7747b1ad397ce2fb102cf7470dbb9f2f5815c7149",
+    "modelo_final.joblib": "d23a2a0f93d64682931608829a030e9615be43990e4ae43d99262b5a9254ff5e",
+    "preprocesador_final.joblib": "01fbfd1f162dda4c7e31946da3e4cc19e87d9badfac235d662345369096168c6",
+    "pruebas_conversion.json": "9e886dd2864bbe506777e37d56f71c6bdff54d5582bf563cad79643cfb5d1911",
+    "recuperar.py": "675762268620fe0119ea0bb0b612c28ac2232ef99715ef721ff73fa476066dd6",
+    "registro_ejecucion.json": "c73aac01557726ec13eabdaaf2420156f285d7ef544bc4640a067c6e031aec9b",
+    "umbral_definitivo.json": "e5327bd50594edd9d1c67e5076bd53f101c9194b068911e8faf16567f7109095",
+    "verificaciones.json": "bb06b50e95ce77591a2bfa951976b8ca9d223270f0c7246e3630866faca17a34"
+  },
+  "manifiesto_sha256": "4772485050832583db357e376e094c88b807345315abfe31895bc5a9b6730297",
+  "python": "3.12.7",
+  "versiones": {
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.16.3",
+    "joblib": "1.5.2",
+    "imbalanced-learn": "0.14.2",
+    "matplotlib": "3.10.7",
+    "Pillow": "12.0.0",
+    "psutil": "7.1.3",
+    "threadpoolctl": "3.6.0",
+    "pytest": "9.1.1",
+    "Faker": null
+  },
+  "python_compilados_en_memoria": 102,
+  "columnas": 62,
+  "clases": [
+    0,
+    1
+  ],
+  "umbral": 0.9976439543869569,
+  "entrenamiento": false,
+  "inferencia": false,
+  "metricas_recalculadas": false,
+  "datasets_leidos": false,
+  "test_distribuido": false,
+  "enlaces_rotos": [],
+  "codificacion_pendiente": [],
+  "pruebas_publicacion": {
+    "aprobadas": 1,
+    "segundos": 1.52
+  },
+  "pruebas_fase03": {
+    "aprobadas": 31,
+    "segundos": 1.65
+  },
+  "imports_internos_faltantes": [],
+  "candidatos_secretos": [],
+  "resultados_binarios_y_csv_identicos_al_staging": true
+}

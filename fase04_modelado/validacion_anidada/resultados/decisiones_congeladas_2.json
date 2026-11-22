@@ -1,0 +1,103 @@
+{
+  "fold_externo": 2,
+  "decisiones": {
+    "arbol_baseline": {
+      "umbral": 0.25,
+      "politica": "umbral",
+      "TP": 4,
+      "FP": 46,
+      "TN": 36118,
+      "FN": 25,
+      "f1": 0.10126582278481013,
+      "f1_numerador": 8,
+      "f1_denominador": 79,
+      "decisiones_sha256": "aa994c9e108546c605e169486239ed6a40e97288f9ad2c6591e73f6873b5e1ab",
+      "umbrales_empatados": [
+        0.25
+      ]
+    },
+    "arbol_ponderado": {
+      "umbral": 0.9976028261418118,
+      "politica": "umbral",
+      "TP": 6,
+      "FP": 73,
+      "TN": 36091,
+      "FN": 23,
+      "f1": 0.1111111111111111,
+      "f1_numerador": 1,
+      "f1_denominador": 9,
+      "decisiones_sha256": "fdd9527489f7a458eeb86ab727eba7e012e7582f68db7f7535ae9e35c90fb90a",
+      "umbrales_empatados": [
+        0.9976028261418118
+      ]
+    },
+    "gnb_baseline": {
+      "umbral": 0.0,
+      "politica": "todos",
+      "TP": 29,
+      "FP": 36164,
+      "TN": 0,
+      "FN": 0,
+      "f1": 0.0016012368174037877,
+      "f1_numerador": 29,
+      "f1_denominador": 18111,
+      "decisiones_sha256": "e93e9aea4be93248af121352677b353c0680efaad902e0c21213fef36153eb21",
+      "umbrales_empatados": [
+        0.0
+      ]
+    },
+    "gnb_ponderado": {
+      "umbral": 0.0,
+      "politica": "todos",
+      "TP": 29,
+      "FP": 36164,
+      "TN": 0,
+      "FN": 0,
+      "f1": 0.0016012368174037877,
+      "f1_numerador": 29,
+      "f1_denominador": 18111,
+      "decisiones_sha256": "e93e9aea4be93248af121352677b353c0680efaad902e0c21213fef36153eb21",
+      "umbrales_empatados": [
+        0.0
+      ]
+    },
+    "knn_baseline": {
+      "umbral": 0.2,
+      "politica": "umbral",
+      "TP": 7,
+      "FP": 90,
+      "TN": 36074,
+      "FN": 22,
+      "f1": 0.1111111111111111,
+      "f1_numerador": 1,
+      "f1_denominador": 9,
+      "decisiones_sha256": "40288c11d01e91a4851b94d49e27422699cf97a7ebbf21c11ab38dbabb9d29a3",
+      "umbrales_empatados": [
+        0.2
+      ]
+    },
+    "knn_ros": {
+      "umbral": 0.8,
+      "politica": "umbral",
+      "TP": 5,
+      "FP": 41,
+      "TN": 36123,
+      "FN": 24,
+      "f1": 0.13333333333333333,
+      "f1_numerador": 2,
+      "f1_denominador": 15,
+      "decisiones_sha256": "588ee268e559c8177f03bd758a385198609dafd3e5509ee18173838facb6f034",
+      "umbrales_empatados": [
+        0.8
+      ]
+    }
+  },
+  "selector": {
+    "modelo": "knn_ros",
+    "variantes_empatadas": [
+      "knn_ros"
+    ],
+    "f1_interno": 0.13333333333333333
+  },
+  "oof_sha256": "554b1d4b9322e9d34c5e76cdd3cbd1375cf57d9ae2165ddf3179673060eb5eba"
+}

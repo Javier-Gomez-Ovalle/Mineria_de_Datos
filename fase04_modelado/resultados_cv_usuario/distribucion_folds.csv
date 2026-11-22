@@ -1,0 +1,6 @@
+fold,usuarios_compartidos,subtrain_eventos,subtrain_usuarios,subtrain_positivos,subtrain_negativos,subtrain_usuarios_positivos,subtrain_usuarios_negativos,validacion_eventos,validacion_usuarios,validacion_positivos,validacion_negativos,validacion_usuarios_positivos,validacion_usuarios_negativos
+1,0,37070,1280,30,37040,28,1252,9235,320,6,9229,6,314
+2,0,36193,1280,29,36164,27,1253,10112,320,7,10105,7,313
+3,0,37984,1280,29,37955,27,1253,8321,320,7,8314,7,313
+4,0,36628,1280,28,36600,27,1253,9677,320,8,9669,7,313
+5,0,37345,1280,28,37317,27,1253,8960,320,8,8952,7,313

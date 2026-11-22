@@ -1,0 +1,2 @@
+# Preserve frozen and historical bytes, including CSV line endings.
+* -text

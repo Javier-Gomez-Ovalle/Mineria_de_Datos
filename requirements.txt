@@ -1,0 +1,7 @@
+# Herramientas de Fase 4; versiones observadas, no instaladas en esta intervención.
+-r requirements-inference.txt
+imbalanced-learn==0.14.2
+matplotlib==3.10.7
+Pillow==12.0.0
+psutil==7.1.3
+threadpoolctl==3.6.0

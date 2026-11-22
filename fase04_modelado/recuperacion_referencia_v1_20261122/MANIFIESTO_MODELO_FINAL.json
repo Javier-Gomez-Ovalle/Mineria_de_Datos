@@ -1,0 +1,91 @@
+{
+  "fecha": "2026-11-22",
+  "procedimiento": "referencia_arbol_ponderado_v1",
+  "estado": "RECUPERADO_CONGELADO_SIN_EVALUAR_TEST",
+  "umbral": 0.9976439543869569,
+  "umbral_sha256": "e5327bd50594edd9d1c67e5076bd53f101c9194b068911e8faf16567f7109095",
+  "train_sha256": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f",
+  "parametros": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "versiones": {
+    "python": "3.12.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.16.3",
+    "joblib": "1.5.2"
+  },
+  "metricas_oof_historicas_no_recalculadas": {
+    "TP": 8,
+    "FP": 48,
+    "TN": 46221,
+    "FN": 28,
+    "precision": 0.14285714285714285,
+    "recall": 0.2222222222222222,
+    "f1": 0.17391304347826086,
+    "average_precision": 0.02478258099105275,
+    "alertas": 56,
+    "porcentaje_alertas": 0.12093726379440665,
+    "sin_predicciones_positivas": false,
+    "eventos": 46305,
+    "usuarios": 1600,
+    "usuarios_ato": 34,
+    "usuarios_ato_detectados": 8,
+    "usuarios_ato_omitidos": 26,
+    "usuarios_sin_ato_con_alerta": 19,
+    "usuarios_con_fp": 29
+  },
+  "artefactos": {
+    "preprocesador_final.joblib": "01fbfd1f162dda4c7e31946da3e4cc19e87d9badfac235d662345369096168c6",
+    "modelo_final.joblib": "d23a2a0f93d64682931608829a030e9615be43990e4ae43d99262b5a9254ff5e"
+  },
+  "equivalencia": {
+    "filas_verificadas": 46305,
+    "origen": "todo train; solo equivalencia de serializacion, no evaluacion",
+    "rtol": 0,
+    "atol": 0,
+    "diferencia_maxima": 0.0,
+    "matrices_identicas": true,
+    "probabilidades_identicas": true,
+    "decisiones_identicas": true,
+    "clases": [
+      0,
+      1
+    ],
+    "columnas": 62,
+    "umbral": 0.9976439543869569
+  },
+  "historicos_intactos": 526,
+  "ajustes_finales_repetidos": 1,
+  "folds_repetidos": 0,
+  "umbral_recalculado": false,
+  "test_leido": false,
+  "test_evaluado": false,
+  "sha256_archivos": {
+    "auditoria_modelo_final.json": "e9f035983f714a8567d7a954a2f6c096b32409fd78a3410cdfa850e4af7b00d3",
+    "esquema_final.json": "1c4de452f1613f9e02ad3e1d2eb989ebb0c87b1b21e3134bc041c7c59eb584aa",
+    "evidencia_recarga.json": "93d07a2620382c5a9e9d6e2e148fd8940552590751b84c9d11c50ad1df94deba",
+    "INFORME_RECUPERACION_TECNICA_FASE04.md": "a13ffce420504cec1581339d744141d40645bf5224a7acbc8befb96e7aed1eee",
+    "inventario_previo.json": "359569d89162274e754772f7747b1ad397ce2fb102cf7470dbb9f2f5815c7149",
+    "modelo_final.joblib": "d23a2a0f93d64682931608829a030e9615be43990e4ae43d99262b5a9254ff5e",
+    "preprocesador_final.joblib": "01fbfd1f162dda4c7e31946da3e4cc19e87d9badfac235d662345369096168c6",
+    "pruebas_conversion.json": "9e886dd2864bbe506777e37d56f71c6bdff54d5582bf563cad79643cfb5d1911",
+    "recuperar.py": "675762268620fe0119ea0bb0b612c28ac2232ef99715ef721ff73fa476066dd6",
+    "registro_ejecucion.json": "c73aac01557726ec13eabdaaf2420156f285d7ef544bc4640a067c6e031aec9b",
+    "umbral_definitivo.json": "e5327bd50594edd9d1c67e5076bd53f101c9194b068911e8faf16567f7109095",
+    "verificaciones.json": "bb06b50e95ce77591a2bfa951976b8ca9d223270f0c7246e3630866faca17a34"
+  }
+}

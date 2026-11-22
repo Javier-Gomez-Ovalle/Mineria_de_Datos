@@ -1,0 +1,38 @@
+{
+  "artefactos_previos_verificados": 18,
+  "historicos_intactos": 526,
+  "versiones_exactas": true,
+  "train_hash_correcto": true,
+  "parametros_exactos": true,
+  "ajustes_modelo": 1,
+  "ajustes_preprocesador": 1,
+  "folds_ejecutados": 0,
+  "selecciones_umbral_ejecutadas": 0,
+  "umbral_sha256": "e5327bd50594edd9d1c67e5076bd53f101c9194b068911e8faf16567f7109095",
+  "pruebas_conversion": {
+    "casos_validos": 7,
+    "rechazos_esperados": 6,
+    "total": 13,
+    "fit_de_pruebas": 0
+  },
+  "recarga": {
+    "filas_verificadas": 46305,
+    "origen": "todo train; solo equivalencia de serializacion, no evaluacion",
+    "rtol": 0,
+    "atol": 0,
+    "diferencia_maxima": 0.0,
+    "matrices_identicas": true,
+    "probabilidades_identicas": true,
+    "decisiones_identicas": true,
+    "clases": [
+      0,
+      1
+    ],
+    "columnas": 62,
+    "umbral": 0.9976439543869569
+  },
+  "test_leido": false,
+  "test_hasheado": false,
+  "git_ejecutado": false,
+  "incidencias_nuevas": []
+}

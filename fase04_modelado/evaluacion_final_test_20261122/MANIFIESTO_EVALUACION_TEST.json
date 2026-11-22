@@ -1,0 +1,55 @@
+{
+  "procedimiento": "referencia_arbol_ponderado_v1",
+  "estado": "EVALUACION_UNICA_CERRADA",
+  "inicio": "2026-11-22T02:06:13.836864-05:00",
+  "fin": "2026-11-22T02:06:14.883332-05:00",
+  "versiones": {
+    "python": "3.12.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.16.3",
+    "joblib": "1.5.2"
+  },
+  "entradas": {
+    "test": {
+      "ruta": "dataset_test_fase04.csv",
+      "sha256": "90c50ab404c3fcef6cc33e59387aec4ac405f41200e6aa61c0f8bf1db43c72fa"
+    },
+    "artefactos": {
+      "directorio": "fase04_modelado/recuperacion_referencia_v1_20261122",
+      "sha256": {
+        "modelo_final.joblib": "d23a2a0f93d64682931608829a030e9615be43990e4ae43d99262b5a9254ff5e",
+        "preprocesador_final.joblib": "01fbfd1f162dda4c7e31946da3e4cc19e87d9badfac235d662345369096168c6",
+        "umbral_definitivo.json": "e5327bd50594edd9d1c67e5076bd53f101c9194b068911e8faf16567f7109095",
+        "MANIFIESTO_MODELO_FINAL.json": "4772485050832583db357e376e094c88b807345315abfe31895bc5a9b6730297"
+      }
+    },
+    "train_solo_control_separacion": {
+      "ruta": "dataset_train_fase04.csv",
+      "sha256": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f"
+    }
+  },
+  "umbral": 0.9976439543869569,
+  "contadores": {
+    "lecturas_archivo_test": 1,
+    "cargas_dataframe_test": 1,
+    "transformaciones_test": 1,
+    "inferencias_test": 1,
+    "evaluaciones_metricas": 1,
+    "intentos_fit": 0
+  },
+  "ajustes_ejecutados": 0,
+  "evaluacion_unica": true,
+  "sha256_entregables": {
+    "AUDITORIA_EVALUACION_TEST.json": "4d8709ccb9c9345d3b9ddf90c000d4b12599d5b44ada49bb6e78872808fc171e",
+    "evaluar_una_vez.py": "c98d3413826e07f518ed6a62dad20d7c075f0ce3219078f9bf6b7e1ab8823111",
+    "INFERENCIA_INICIADA.json": "95bfe6a7e496a3b2859cbd971166e8b58f237691017adc4946b417a3d9736f71",
+    "INFORME_EVALUACION_FINAL_TEST_FASE04.md": "1161f607769032f180ca2fbe5a1b688a84db2a9fb64adb28300437389a1c5a13",
+    "INICIO_EVALUACION_UNICA.json": "e1bb897ef95af9251391043472bbcdb84ee306fe55ec38a8f89a2dc2662feec7",
+    "INVENTARIO_PREVIO.json": "555d60e795e176350c2db4a66ebef6d46fd4ada21809d04b71b619d9e743ecd8",
+    "PREDICCIONES_TEST.csv": "00406288fe88260cea864d1cb7c27cebd8ab18b757a3405179aaae89e0ff738b",
+    "PREFLIGHT_APROBADO.json": "3d43274816f9bc53fd610430f5a569bc29525979e0c546d2355d196ee8945483"
+  },
+  "nota": "No contiene hash de sí mismo; test no reabierto tras inferencia."
+}

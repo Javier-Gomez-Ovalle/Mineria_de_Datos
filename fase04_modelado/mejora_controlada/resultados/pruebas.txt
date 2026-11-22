@@ -1,0 +1,13 @@
+Fecha: 2026-11-21 (America/Bogota)
+Comando ejecutado desde la raiz:
+python -B -m pytest -p no:cacheprovider -q fase04_modelado/mejora_controlada/tests
+
+...............                                                          [100%]
+15 passed in 7.87s
+
+Una ejecucion, sin fallos: 15 casos aprobados (incluye tres parametrizados).
+Dos ajustes de bosque pequenos sinteticos para reproducibilidad, aparte de los 65 ajustes experimentales.
+No se repitieron pipelines historicos. La prueba de bloqueo invoca la guardia antes de cualquier acceso a test.
+Comprobaciones de resultados: cobertura y claves OOF, particiones reproducibles, seleccion interna exacta,
+65 auditorias locales, metricas por fold/globales desde predicciones, configuracion, 14 pares de graficas e integridad.
+La reproducibilidad del entrenamiento se comprobo en datos sinteticos; no se repitieron los 65 ajustes completos.

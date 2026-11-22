@@ -1,0 +1,20 @@
+{
+  "TP": 8,
+  "FP": 48,
+  "TN": 46221,
+  "FN": 28,
+  "precision": 0.14285714285714285,
+  "recall": 0.2222222222222222,
+  "f1": 0.17391304347826086,
+  "average_precision": 0.02478258099105275,
+  "alertas": 56,
+  "porcentaje_alertas": 0.12093726379440665,
+  "sin_predicciones_positivas": false,
+  "eventos": 46305,
+  "usuarios": 1600,
+  "usuarios_ato": 34,
+  "usuarios_ato_detectados": 8,
+  "usuarios_ato_omitidos": 26,
+  "usuarios_sin_ato_con_alerta": 19,
+  "usuarios_con_fp": 29
+}

@@ -1,0 +1,42 @@
+{
+  "fold_externo": 4,
+  "configuraciones": [
+    {
+      "umbral": 0.6741676549011234,
+      "f1": 0.22641509433962265,
+      "numerador": 12,
+      "denominador": 53,
+      "empates": 1,
+      "configuracion": 0
+    },
+    {
+      "umbral": 0.8250576551901178,
+      "f1": 0.12658227848101267,
+      "numerador": 10,
+      "denominador": 79,
+      "empates": 1,
+      "configuracion": 1
+    },
+    {
+      "umbral": 0.5696418441774446,
+      "f1": 0.04504504504504504,
+      "numerador": 5,
+      "denominador": 111,
+      "empates": 1,
+      "configuracion": 2
+    },
+    {
+      "umbral": 0.812154803649598,
+      "f1": 0.1411764705882353,
+      "numerador": 12,
+      "denominador": 85,
+      "empates": 1,
+      "configuracion": 3
+    }
+  ],
+  "elegida": 0,
+  "umbral": 0.6741676549011234,
+  "selector_ampliado": "random_forest",
+  "oof_sha256": "4c781d2c36ad2e5c71944209df738f8e4bb00dade3c280795021179fe6e1d2bb",
+  "historico_decisiones_sha256": "c9ed552177d2009a00885c00e03fba1e1605089d4b293dcab43760812584fde4"
+}

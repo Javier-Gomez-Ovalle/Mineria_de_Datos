@@ -1,0 +1,15 @@
+{
+  "seleccion": {
+    "kmeans_2": {
+      "k": 2,
+      "sha256": "9e4b7f5f6c57f856fad41f0c8f285d5068050d5ab860ab91c9b40ef48eeac1ef"
+    },
+    "ward_2": {
+      "k": 2,
+      "sha256": "14bff7022a6835a554686fb4c8dc4ad4f31765536b073619f4db54877df36c94"
+    }
+  },
+  "target_consultado": false,
+  "justificacion": "KMeans K=2: silhouette 0.606, DB mínimo y CH máximo del rango, ARI=1 entre semillas, grupos 41296/5009 y perfiles de fallos/intervalos interpretables. Codo gradual: no prueba un K verdadero. Ward K=2: mejores tres índices dentro de Ward, grupos 3534/466. Average K=2 se descarta como representación principal pese a silhouette 0.785 por división 3983/17 (0.425% en grupo menor). K=7/8 KMeans es menos estable. Selección descriptiva parsimoniosa, no óptimo universal.",
+  "corte_ward": 87.60252752128957
+}

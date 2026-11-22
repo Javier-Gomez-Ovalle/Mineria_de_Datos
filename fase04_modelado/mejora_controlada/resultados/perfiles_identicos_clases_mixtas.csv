@@ -1,0 +1,5 @@
+failed_attempts_15min,failed_attempts_1h,time_since_previous_login_hours,has_previous_login,Device Type,Country,size,sum
+0,0,,0,desktop,IT,7,2
+0,0,,0,desktop,NO,610,2
+0,0,,0,desktop,RO,4,3
+0,0,,0,mobile,CZ,8,1

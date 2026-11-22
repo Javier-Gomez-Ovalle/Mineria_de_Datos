@@ -1,0 +1,72 @@
+[
+  {
+    "archivo": "graficas/comparacion_metricas.png",
+    "vector": "graficas/comparacion_metricas.svg",
+    "descripcion": "Precision, Recall, F1 y F2 de las siete variantes y dos selectores; sin accuracy."
+  },
+  {
+    "archivo": "graficas/estabilidad_folds.png",
+    "vector": "graficas/estabilidad_folds.svg",
+    "descripcion": "Cinco puntos por procedimiento; DE muestral. AP por fold, incluida la familia seleccionada en cada fold."
+  },
+  {
+    "archivo": "graficas/falsas_alarmas_omisiones.png",
+    "vector": "graficas/falsas_alarmas_omisiones.svg",
+    "descripcion": "Cantidad absoluta de FP y FN, incluyendo GaussianNB sin ocultarlo."
+  },
+  {
+    "archivo": "graficas/confusion_arbol_baseline.png",
+    "vector": "graficas/confusion_arbol_baseline.svg",
+    "descripcion": "Matriz absoluta de Árbol base."
+  },
+  {
+    "archivo": "graficas/confusion_arbol_ponderado.png",
+    "vector": "graficas/confusion_arbol_ponderado.svg",
+    "descripcion": "Matriz absoluta de Árbol ponderado."
+  },
+  {
+    "archivo": "graficas/confusion_gnb_baseline.png",
+    "vector": "graficas/confusion_gnb_baseline.svg",
+    "descripcion": "Matriz absoluta de GNB base."
+  },
+  {
+    "archivo": "graficas/confusion_gnb_ponderado.png",
+    "vector": "graficas/confusion_gnb_ponderado.svg",
+    "descripcion": "Matriz absoluta de GNB ponderado."
+  },
+  {
+    "archivo": "graficas/confusion_knn_baseline.png",
+    "vector": "graficas/confusion_knn_baseline.svg",
+    "descripcion": "Matriz absoluta de KNN base."
+  },
+  {
+    "archivo": "graficas/confusion_knn_ros.png",
+    "vector": "graficas/confusion_knn_ros.svg",
+    "descripcion": "Matriz absoluta de KNN ROS."
+  },
+  {
+    "archivo": "graficas/confusion_random_forest.png",
+    "vector": "graficas/confusion_random_forest.svg",
+    "descripcion": "Matriz absoluta de Random Forest."
+  },
+  {
+    "archivo": "graficas/confusion_selector_historico.png",
+    "vector": "graficas/confusion_selector_historico.svg",
+    "descripcion": "Matriz absoluta de Selector 6."
+  },
+  {
+    "archivo": "graficas/confusion_selector_ampliado.png",
+    "vector": "graficas/confusion_selector_ampliado.svg",
+    "descripcion": "Matriz absoluta de Selector 7."
+  },
+  {
+    "archivo": "graficas/pr_por_fold.png",
+    "vector": "graficas/pr_por_fold.svg",
+    "descripcion": "Curvas Precision–Recall y AP de las siete variantes en cada fold externo; sin concatenar familias."
+  },
+  {
+    "archivo": "graficas/bosque_por_fold.png",
+    "vector": "graficas/bosque_por_fold.svg",
+    "descripcion": "Detectados, omitidos y falsas alarmas del bosque por fold."
+  }
+]

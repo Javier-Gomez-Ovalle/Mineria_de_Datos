@@ -1,0 +1,6 @@
+Fecha de entrega: 2026-11-21, America/Bogota
+Comando: python -B -m pytest -p no:cacheprovider -q fase04_modelado/seleccion_supervisada/tests
+Resultado final: 11 passed in 31.87s
+Primera ejecución: 10 passed, 1 failed; el test esperaba 25 entradas en el catálogo principal, que contiene 24. Se corrigió el conteo de la prueba y se verificó adicionalmente la figura 25 (detalle de FP). No se modificaron datos, predicciones ni métricas para resolverlo.
+Revisión visual de figuras representativas: sensibilidad KNN y matrices CV2 KNN; títulos y cifras legibles.
+Comprobación de enlaces del informe: 62, todos existentes.

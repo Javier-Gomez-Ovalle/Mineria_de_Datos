@@ -1,0 +1,14 @@
+{
+  "ajustes": 65,
+  "segundos": 80.36980320001021,
+  "rss_muestreado_bytes": [
+    237608960,
+    237182976,
+    239407104,
+    239792128,
+    241340416
+  ],
+  "historicos_verificados": 406,
+  "test_leido": false,
+  "modelo_final_entrenado": false
+}

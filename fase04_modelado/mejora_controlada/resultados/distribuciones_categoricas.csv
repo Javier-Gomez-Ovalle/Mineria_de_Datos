@@ -1,0 +1,247 @@
+fold,predictor,categoria,eventos,ATO,prevalencia
+0,Country,AR,3,0,0
+0,Country,AT,1,0,0
+0,Country,AU,207,0,0
+0,Country,BD,19,0,0
+0,Country,BF,1,0,0
+0,Country,BG,86,0,0
+0,Country,BR,930,3,0.0032258064516129032
+0,Country,CA,41,2,0.04878048780487805
+0,Country,CH,22,0,0
+0,Country,CL,8,2,0.25
+0,Country,CZ,249,2,0.0080321285140562242
+0,Country,DE,619,0,0
+0,Country,DK,45,0,0
+0,Country,DO,15,0,0
+0,Country,ES,1,0,0
+0,Country,FR,272,0,0
+0,Country,GB,1452,0,0
+0,Country,GE,1,0,0
+0,Country,GR,49,0,0
+0,Country,GT,5,0,0
+0,Country,HK,8,0,0
+0,Country,HU,3,0,0
+0,Country,ID,245,2,0.0081632653061224497
+0,Country,IL,9,0,0
+0,Country,IN,422,0,0
+0,Country,IR,116,0,0
+0,Country,IT,90,4,0.044444444444444446
+0,Country,JP,3,0,0
+0,Country,KE,3,0,0
+0,Country,KR,47,0,0
+0,Country,KW,2,0,0
+0,Country,KY,1,0,0
+0,Country,LV,6,0,0
+0,Country,MY,13,0,0
+0,Country,MZ,2,1,0.5
+0,Country,NG,26,0,0
+0,Country,NL,165,0,0
+0,Country,NO,36532,5,0.00013686630898937917
+0,Country,NZ,15,0,0
+0,Country,PH,2,0,0
+0,Country,PL,1218,0,0
+0,Country,PY,2,0,0
+0,Country,QA,19,0,0
+0,Country,RO,329,15,0.045592705167173252
+0,Country,RU,15,0,0
+0,Country,SD,1,0,0
+0,Country,SG,1,0,0
+0,Country,SI,8,0,0
+0,Country,SK,31,0,0
+0,Country,TH,25,0,0
+0,Country,TR,8,0,0
+0,Country,UA,609,0,0
+0,Country,US,2301,0,0
+0,Country,VE,2,0,0
+0,Device Type,desktop,23581,30,0.0012722106780882914
+0,Device Type,mobile,20620,6,0.00029097963142580018
+0,Device Type,tablet,2061,0,0
+0,Device Type,unknown,43,0,0
+0,has_previous_login,0.0,1600,8,0.0050000000000000001
+0,has_previous_login,1.0,44705,28,0.00062632815121351079
+1,Country,AU,76,0,0
+1,Country,BF,1,0,0
+1,Country,BG,35,0,0
+1,Country,BR,128,0,0
+1,Country,CA,8,0,0
+1,Country,CL,2,0,0
+1,Country,CZ,111,0,0
+1,Country,DE,147,0,0
+1,Country,DK,3,0,0
+1,Country,ES,1,0,0
+1,Country,FR,37,0,0
+1,Country,GB,299,0,0
+1,Country,GE,1,0,0
+1,Country,GR,13,0,0
+1,Country,ID,42,0,0
+1,Country,IL,2,0,0
+1,Country,IN,149,0,0
+1,Country,IR,18,0,0
+1,Country,IT,23,1,0.043478260869565216
+1,Country,JP,1,0,0
+1,Country,KY,1,0,0
+1,Country,MY,5,0,0
+1,Country,NL,5,0,0
+1,Country,NO,7337,1,0.0001362954886193267
+1,Country,PL,299,0,0
+1,Country,PY,2,0,0
+1,Country,QA,2,0,0
+1,Country,RO,98,4,0.040816326530612242
+1,Country,UA,125,0,0
+1,Country,US,264,0,0
+1,Device Type,desktop,4537,5,0.0011020498126515319
+1,Device Type,mobile,4324,1,0.00023126734505087883
+1,Device Type,tablet,366,0,0
+1,Device Type,unknown,8,0,0
+1,has_previous_login,0.0,320,2,0.0062500000000000003
+1,has_previous_login,1.0,8915,4,0.00044868199663488501
+2,Country,AR,1,0,0
+2,Country,AU,22,0,0
+2,Country,BR,362,1,0.0027624309392265192
+2,Country,CA,5,1,0.20000000000000001
+2,Country,CL,1,0,0
+2,Country,DE,18,0,0
+2,Country,DK,17,0,0
+2,Country,FR,9,0,0
+2,Country,GB,226,0,0
+2,Country,GR,36,0,0
+2,Country,GT,2,0,0
+2,Country,HU,1,0,0
+2,Country,ID,92,0,0
+2,Country,IL,1,0,0
+2,Country,IN,56,0,0
+2,Country,IR,9,0,0
+2,Country,IT,3,1,0.33333333333333331
+2,Country,JP,2,0,0
+2,Country,KR,46,0,0
+2,Country,MY,8,0,0
+2,Country,NG,23,0,0
+2,Country,NL,45,0,0
+2,Country,NO,7723,2,0.00025896672277612325
+2,Country,PL,152,0,0
+2,Country,QA,14,0,0
+2,Country,RO,18,2,0.1111111111111111
+2,Country,SI,5,0,0
+2,Country,SK,2,0,0
+2,Country,TH,19,0,0
+2,Country,UA,199,0,0
+2,Country,US,994,0,0
+2,Country,VE,1,0,0
+2,Device Type,desktop,5231,7,0.0013381762569298413
+2,Device Type,mobile,4396,0,0
+2,Device Type,tablet,472,0,0
+2,Device Type,unknown,13,0,0
+2,has_previous_login,0.0,320,1,0.0031250000000000002
+2,has_previous_login,1.0,9792,6,0.00061274509803921568
+3,Country,AR,1,0,0
+3,Country,BD,19,0,0
+3,Country,BG,51,0,0
+3,Country,BR,123,0,0
+3,Country,CA,8,1,0.125
+3,Country,CH,21,0,0
+3,Country,CL,2,0,0
+3,Country,CZ,27,0,0
+3,Country,DE,217,0,0
+3,Country,DK,5,0,0
+3,Country,FR,16,0,0
+3,Country,GB,234,0,0
+3,Country,HK,8,0,0
+3,Country,ID,19,0,0
+3,Country,IL,2,0,0
+3,Country,IN,80,0,0
+3,Country,IR,1,0,0
+3,Country,IT,12,1,0.083333333333333329
+3,Country,KE,3,0,0
+3,Country,KW,1,0,0
+3,Country,LV,1,0,0
+3,Country,NG,1,0,0
+3,Country,NL,11,0,0
+3,Country,NO,6628,2,0.00030175015087507544
+3,Country,NZ,15,0,0
+3,Country,PL,314,0,0
+3,Country,QA,1,0,0
+3,Country,RO,74,3,0.040540540540540543
+3,Country,SG,1,0,0
+3,Country,SI,2,0,0
+3,Country,SK,22,0,0
+3,Country,UA,96,0,0
+3,Country,US,305,0,0
+3,Device Type,desktop,3899,6,0.001538856116953065
+3,Device Type,mobile,4089,1,0.00024455857177794083
+3,Device Type,tablet,319,0,0
+3,Device Type,unknown,14,0,0
+3,has_previous_login,0.0,320,1,0.0031250000000000002
+3,has_previous_login,1.0,8001,6,0.00074990626171728538
+4,Country,AR,1,0,0
+4,Country,AU,52,0,0
+4,Country,BR,177,2,0.011299435028248588
+4,Country,CA,7,0,0
+4,Country,CZ,41,0,0
+4,Country,DE,130,0,0
+4,Country,DK,9,0,0
+4,Country,DO,15,0,0
+4,Country,FR,206,0,0
+4,Country,GB,432,0,0
+4,Country,HU,2,0,0
+4,Country,ID,42,1,0.023809523809523808
+4,Country,IL,4,0,0
+4,Country,IN,80,0,0
+4,Country,IR,6,0,0
+4,Country,IT,26,0,0
+4,Country,KR,1,0,0
+4,Country,LV,1,0,0
+4,Country,MZ,1,1,1
+4,Country,NG,1,0,0
+4,Country,NL,69,0,0
+4,Country,NO,7516,0,0
+4,Country,PH,2,0,0
+4,Country,PL,261,0,0
+4,Country,RO,69,4,0.057971014492753624
+4,Country,RU,15,0,0
+4,Country,SI,1,0,0
+4,Country,TR,8,0,0
+4,Country,UA,88,0,0
+4,Country,US,413,0,0
+4,Country,VE,1,0,0
+4,Device Type,desktop,5281,7,0.0013255065328536262
+4,Device Type,mobile,4019,1,0.0002488181139586962
+4,Device Type,tablet,371,0,0
+4,Device Type,unknown,6,0,0
+4,has_previous_login,0.0,320,1,0.0031250000000000002
+4,has_previous_login,1.0,9357,7,0.00074810302447365614
+5,Country,AT,1,0,0
+5,Country,AU,57,0,0
+5,Country,BR,140,0,0
+5,Country,CA,13,0,0
+5,Country,CH,1,0,0
+5,Country,CL,3,2,0.66666666666666663
+5,Country,CZ,70,2,0.028571428571428571
+5,Country,DE,107,0,0
+5,Country,DK,11,0,0
+5,Country,FR,4,0,0
+5,Country,GB,261,0,0
+5,Country,GT,3,0,0
+5,Country,ID,50,1,0.02
+5,Country,IN,57,0,0
+5,Country,IR,82,0,0
+5,Country,IT,26,1,0.038461538461538464
+5,Country,KW,1,0,0
+5,Country,LV,4,0,0
+5,Country,MZ,1,0,0
+5,Country,NG,1,0,0
+5,Country,NL,35,0,0
+5,Country,NO,7328,0,0
+5,Country,PL,192,0,0
+5,Country,QA,2,0,0
+5,Country,RO,70,2,0.028571428571428571
+5,Country,SD,1,0,0
+5,Country,SK,7,0,0
+5,Country,TH,6,0,0
+5,Country,UA,101,0,0
+5,Country,US,325,0,0
+5,Device Type,desktop,4633,5,0.0010792143319663286
+5,Device Type,mobile,3792,3,0.0007911392405063291
+5,Device Type,tablet,533,0,0
+5,Device Type,unknown,2,0,0
+5,has_previous_login,0.0,320,3,0.0093749999999999997
+5,has_previous_login,1.0,8640,5,0.00057870370370370367

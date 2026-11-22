@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-11-21",
+  "externos": 5,
+  "internos": 3,
+  "semilla": 42,
+  "unidad": "evento",
+  "criterio": "F1 OOF interno agrupado",
+  "regla": "score >= umbral",
+  "desempate_umbral": "distancia a 0.5; luego mayor",
+  "desempate_variante": [
+    "arbol_baseline",
+    "arbol_ponderado",
+    "gnb_baseline",
+    "gnb_ponderado",
+    "knn_baseline",
+    "knn_ros"
+  ],
+  "politicas_extremas": {
+    "todos": 0.0,
+    "ninguno": 1.0000000000000002
+  },
+  "calibracion": false,
+  "optimizacion_hiperparametros": false,
+  "referencia": 0.5,
+  "hilos": 2,
+  "lote_prediccion": 512,
+  "working_memory_MiB": 256,
+  "train_sha256": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f",
+  "especificacion_sha256": "0beb039be4e7f2660fb53ccfcb79596867b0ae07a06a10ff87e06d57288807b5",
+  "versiones": {
+    "python": "3.12.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "imblearn": "0.14.2"
+  }
+}

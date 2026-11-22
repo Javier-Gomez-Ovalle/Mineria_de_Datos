@@ -1,0 +1,80 @@
+[
+  {
+    "nombre": "01_metricas_globales",
+    "descripcion": "Precision, recall y F1. Selector a 0,5 usa las mismas variantes seleccionadas con umbral aprendido.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/01_metricas_globales.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/01_metricas_globales.svg"
+  },
+  {
+    "nombre": "02_confusion_arbol_baseline",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_baseline.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_baseline.svg"
+  },
+  {
+    "nombre": "02_confusion_arbol_ponderado",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_ponderado.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_arbol_ponderado.svg"
+  },
+  {
+    "nombre": "02_confusion_gnb_baseline",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_baseline.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_baseline.svg"
+  },
+  {
+    "nombre": "02_confusion_gnb_ponderado",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_ponderado.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_gnb_ponderado.svg"
+  },
+  {
+    "nombre": "02_confusion_knn_baseline",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_baseline.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_baseline.svg"
+  },
+  {
+    "nombre": "02_confusion_knn_ros",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_ros.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_knn_ros.svg"
+  },
+  {
+    "nombre": "02_confusion_selector_conjunto",
+    "descripcion": "Confusiones absolutas: umbral aprendido y referencia; filas reales, columnas predichas.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_selector_conjunto.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/02_confusion_selector_conjunto.svg"
+  },
+  {
+    "nombre": "03_umbrales",
+    "descripcion": "Umbrales de las seis variantes por fold. Diferencias pequeñas en árboles no implican decisiones similares.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/03_umbrales.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/03_umbrales.svg"
+  },
+  {
+    "nombre": "04_selector",
+    "descripcion": "Frecuencia de selección interna y F1 externo; no selecciona retrospectivamente un ganador.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/04_selector.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/04_selector.svg"
+  },
+  {
+    "nombre": "05_variabilidad",
+    "descripcion": "Cinco métricas por variante, regla y selector. AP del selector conserva su significado local por fold.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/05_variabilidad.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/05_variabilidad.svg"
+  },
+  {
+    "nombre": "06_usuarios",
+    "descripcion": "Usuarios positivos detectados/omitidos y usuarios completamente negativos con alertas; no confundir con eventos.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/06_usuarios.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/06_usuarios.svg"
+  },
+  {
+    "nombre": "07_conteos",
+    "descripcion": "TP/FP/FN por variante y selector, sin ocultar falsas alarmas de GaussianNB.",
+    "png": "fase04_modelado/validacion_anidada/resultados/graficas/07_conteos.png",
+    "svg": "fase04_modelado/validacion_anidada/resultados/graficas/07_conteos.svg"
+  }
+]

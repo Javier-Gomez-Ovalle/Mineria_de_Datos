@@ -1,0 +1,146 @@
+[
+  {
+    "nombre": "01_comparacion_protocolos",
+    "descripcion": "Métricas de todas las variantes a 0,5. Cambia la partición, no el algoritmo.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/01_comparacion_protocolos.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/01_comparacion_protocolos.svg"
+  },
+  {
+    "nombre": "02_pr_CV1",
+    "descripcion": "AP y prevalencia. AP global concatena escalas de cinco estimadores no necesariamente calibradas; detalle log explícito.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/02_pr_CV1.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/02_pr_CV1.svg"
+  },
+  {
+    "nombre": "02_pr_CV2",
+    "descripcion": "AP y prevalencia. AP global concatena escalas de cinco estimadores no necesariamente calibradas; detalle log explícito.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/02_pr_CV2.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/02_pr_CV2.svg"
+  },
+  {
+    "nombre": "03_umbrales_arbol_baseline",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_arbol_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_arbol_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_arbol_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_arbol_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_arbol_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_arbol_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_arbol_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_arbol_baseline.svg"
+  },
+  {
+    "nombre": "03_umbrales_arbol_ponderado",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_arbol_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_arbol_ponderado.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_arbol_ponderado",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_arbol_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_arbol_ponderado.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_arbol_ponderado",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_arbol_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_arbol_ponderado.svg"
+  },
+  {
+    "nombre": "03_umbrales_gnb_baseline",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_gnb_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_gnb_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_gnb_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_gnb_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_gnb_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_gnb_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_gnb_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_gnb_baseline.svg"
+  },
+  {
+    "nombre": "03_umbrales_gnb_ponderado",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_gnb_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_gnb_ponderado.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_gnb_ponderado",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_gnb_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_gnb_ponderado.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_gnb_ponderado",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_gnb_ponderado.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_gnb_ponderado.svg"
+  },
+  {
+    "nombre": "03_umbrales_knn_baseline",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_knn_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_knn_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_knn_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_knn_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_knn_baseline.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_knn_baseline",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_knn_baseline.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_knn_baseline.svg"
+  },
+  {
+    "nombre": "03_umbrales_knn_ros",
+    "descripcion": "Precision/recall, TP/FN, FP y porcentaje de alertas por umbral y protocolo. Estados exactos y sus métricas en CSV.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_knn_ros.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/03_umbrales_knn_ros.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV1_knn_ros",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_knn_ros.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV1_knn_ros.svg"
+  },
+  {
+    "nombre": "04_confusiones_CV2_knn_ros",
+    "descripcion": "Matrices a 0,2 / 0,4 / 0,5. No omite variantes desfavorables; resto de umbrales en tabla completa.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_knn_ros.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/04_confusiones_CV2_knn_ros.svg"
+  },
+  {
+    "nombre": "05_variabilidad_folds",
+    "descripcion": "Cinco valores por variante y protocolo. Medias y DE a todos los umbrales disponibles en resumen_folds.csv.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/05_variabilidad_folds.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/05_variabilidad_folds.svg"
+  },
+  {
+    "nombre": "06_compromisos_tp_fp",
+    "descripcion": "Puntos exploratorios sin coste FP/FN supuesto. Frontera Pareto identificada en CSV, no implica ganador.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/06_compromisos_tp_fp.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/06_compromisos_tp_fp.svg"
+  },
+  {
+    "nombre": "07_tabla_compromisos",
+    "descripcion": "Comparación legible de conteos y tasas a referencia 0,4; no ordena variantes por una sola métrica.",
+    "png": "fase04_modelado/seleccion_supervisada/graficas/07_tabla_compromisos.png",
+    "svg": "fase04_modelado/seleccion_supervisada/graficas/07_tabla_compromisos.svg"
+  }
+]

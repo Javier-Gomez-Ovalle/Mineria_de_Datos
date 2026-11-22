@@ -1,0 +1,16 @@
+{
+  "filas_verificadas": 46305,
+  "origen": "todo train; solo equivalencia de serializacion, no evaluacion",
+  "rtol": 0,
+  "atol": 0,
+  "diferencia_maxima": 0.0,
+  "matrices_identicas": true,
+  "probabilidades_identicas": true,
+  "decisiones_identicas": true,
+  "clases": [
+    0,
+    1
+  ],
+  "columnas": 62,
+  "umbral": 0.9976439543869569
+}

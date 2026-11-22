@@ -1,0 +1,6 @@
+fold,usuarios_compartidos,subtrain_eventos,subtrain_usuarios,subtrain_positivos,subtrain_usuarios_positivos,validacion_eventos,validacion_usuarios,validacion_positivos,validacion_usuarios_positivos
+1,0,37490,1280,26,25,8815,320,10,9
+2,0,37091,1280,28,26,9214,320,8,8
+3,0,36770,1281,35,33,9535,319,1,1
+4,0,36299,1280,28,26,10006,320,8,8
+5,0,37570,1279,27,26,8735,321,9,8

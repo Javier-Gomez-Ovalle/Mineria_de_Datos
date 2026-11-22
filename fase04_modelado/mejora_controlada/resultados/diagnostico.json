@@ -1,0 +1,11 @@
+{
+  "eventos": 46305,
+  "usuarios": 1600,
+  "ATO": 36,
+  "usuarios_ATO": 34,
+  "prevalencia": 0.0007774538386783285,
+  "grupos_identicos_mixtos": 4,
+  "ATO_en_grupos_mixtos": 8,
+  "negativos_en_grupos_mixtos": 621,
+  "historicos_verificados": 406
+}

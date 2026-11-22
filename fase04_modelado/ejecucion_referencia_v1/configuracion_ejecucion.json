@@ -1,0 +1,41 @@
+{
+  "procedimiento": "referencia_arbol_ponderado_v1",
+  "fecha": "2026-11-21",
+  "versiones": {
+    "python": "3.12.7",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "scipy": "1.16.3",
+    "joblib": "1.5.2"
+  },
+  "parametros": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "train_sha256": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f",
+  "especificacion_sha256": "e92c6f4fc75c0238a27c119186c451f0e9ac6de89ecb2c619ef7b82bbc8c9f96",
+  "predictores": [
+    "failed_attempts_15min",
+    "failed_attempts_1h",
+    "time_since_previous_login_hours",
+    "has_previous_login",
+    "Device Type",
+    "Country"
+  ],
+  "n_splits": 3,
+  "semilla": 42,
+  "criterio": "F1 OOF por evento; desempate distancia a 0.5, después mayor",
+  "test_autorizado": false
+}

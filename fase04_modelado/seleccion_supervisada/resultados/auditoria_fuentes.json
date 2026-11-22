@@ -1,0 +1,25 @@
+{
+  "hashes": {
+    "dataset_train_fase04.csv": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f",
+    "fase04_modelado/resultados/predicciones_oof.csv": "80c55d729006d22d1bc03019b57777708ea2fe76482e12ba13c67482399a0d91",
+    "fase04_modelado/resultados/comparacion_modelos.csv": "cdce2af5f6b34614c62de3a6cfde6e59e6d02fcbf6a851827acd47729986d052",
+    "fase04_modelado/resultados/metricas_por_fold.csv": "9836e99cafe55bf0b3ce2a9f86d5dff2442db1ecca5093fc28c2ca199fbf2722",
+    "fase04_modelado/resultados/distribucion_folds.csv": "9c8b3e14b7af2ec422ad874f512781e8ff1a52aae5d83433389df2063fe5be5c",
+    "fase04_modelado/resultados/configuracion_auditoria.json": "5b49797a1f9c254d60bb7ac9c8dcd93ce889bf543d1182b35eb81c9913f298c4",
+    "fase04_modelado/resultados_cv_usuario/predicciones_oof.csv": "30f49c2aeb1e435c1989c1b660d12e708740181b88282bf28ed0124ad7c2b505",
+    "fase04_modelado/resultados_cv_usuario/comparacion_modelos.csv": "f5274eab3f2e43589de094526d0ee1ccc27c7b37c1f279cd0f08965e604e17bd",
+    "fase04_modelado/resultados_cv_usuario/metricas_por_fold.csv": "9cffb9aefec5602a26c91971db69e33fb21aaead727696f5a8821169a469958f",
+    "fase04_modelado/resultados_cv_usuario/distribucion_folds.csv": "23d64f6bcc834b05d740e71c0276f2b86175fe7986b85ee656297ca9aed7e0af",
+    "fase04_modelado/resultados_cv_usuario/configuracion_auditoria.json": "10241490feef6bc5fd37d654e75b8a1be19b21a21afa3bb6081435d8c8aaedfa"
+  },
+  "protocolos": 2,
+  "variantes": 6,
+  "eventos_por_variante": 46305,
+  "usuarios": 1600,
+  "positivos": 36,
+  "usuarios_positivos": 34,
+  "correspondencia": true,
+  "metricas_globales_y_folds": true,
+  "usuarios_disjuntos": true,
+  "test_leido": false
+}

@@ -1,0 +1,7 @@
+# Dependencia del generador histórico de empleados de Fase 3.
+# No está instalada en el entorno actual y no hay versión original acreditada.
+# Esta lista NO certifica reproducción exacta de la generación histórica.
+# Recuperar la versión original antes de ejecutar ese pipeline; no es necesaria
+# para cargar el modelo final ni para la documentación de Fase 4.
+-r requirements.txt
+Faker

@@ -1,0 +1,11 @@
+protocolo,fold,usuarios_compartidos,subtrain_eventos,subtrain_usuarios,subtrain_positivos,subtrain_usuarios_positivos,validacion_eventos,validacion_usuarios,validacion_positivos,validacion_usuarios_positivos,subtrain_negativos,subtrain_usuarios_negativos,validacion_negativos,validacion_usuarios_negativos
+cv_evento,1,0,37490,1280,26,25,8815,320,10,9,37464,1255,8805,311
+cv_evento,2,0,37091,1280,28,26,9214,320,8,8,37063,1254,9206,312
+cv_evento,3,0,36770,1281,35,33,9535,319,1,1,36735,1248,9534,318
+cv_evento,4,0,36299,1280,28,26,10006,320,8,8,36271,1254,9998,312
+cv_evento,5,0,37570,1279,27,26,8735,321,9,8,37543,1253,8726,313
+cv_usuario,1,0,37070,1280,30,28,9235,320,6,6,37040,1252,9229,314
+cv_usuario,2,0,36193,1280,29,27,10112,320,7,7,36164,1253,10105,313
+cv_usuario,3,0,37984,1280,29,27,8321,320,7,7,37955,1253,8314,313
+cv_usuario,4,0,36628,1280,28,27,9677,320,8,7,36600,1253,9669,313
+cv_usuario,5,0,37345,1280,28,27,8960,320,8,7,37317,1253,8952,313

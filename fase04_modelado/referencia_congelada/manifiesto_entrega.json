@@ -1,0 +1,33 @@
+{
+  "fecha": "2026-11-21",
+  "historicos_sin_cambios": 500,
+  "readme_adenda_autorizada": true,
+  "readme_prefijo_original_bytes": 3639,
+  "readme_prefijo_original_sha256": "5e8457c53a71d26a97259d27a664a70c7cd0b614ae8293684ec79af4cd981fa8",
+  "sha256_entregables": {
+    "INFORME_PROCEDIMIENTO_REFERENCIA_FASE04.md": "93d3e3cc2c7032e156c910bf8b73e17b568e98a689b52a44618b87ee548db5af",
+    "PROCEDIMIENTO_REFERENCIA_CONGELADO_FASE04.md": "e92c6f4fc75c0238a27c119186c451f0e9ac6de89ecb2c619ef7b82bbc8c9f96",
+    "INFORME_AUTORIZACION_TEST_FASE04.md": "868e8b269a4afdfc9f69924d807d357933077513de24f51f039fcd7b7fde79f9",
+    "fase04_modelado/referencia_congelada/evidencia_congelacion.json": "66965e318be3da3bcd1980a2bcf523f1104de02fec100bffc7aabf74c6d015fd",
+    "fase04_modelado/referencia_congelada/inventario_previo.json": "c5cb7ee7690a7c405e8b33533501c4ba5d52dac447a6ad5f988eb1946c7f722f",
+    "README_ESTADO_FASE04.md": "f82e974d05bf60709bbc06cedf00975d8c8fc62a1fe706167d7d6c22fbc0663b"
+  },
+  "fit_modelos": 0,
+  "fit_transformadores": 0,
+  "pytest_ejecutado": false,
+  "decisiones_historicas_reproducidas": 5,
+  "auditorias_arbol_revisadas": 20,
+  "predicciones_historicas_alineadas": 46305,
+  "test_leido": false,
+  "test_hash": false,
+  "modelo_final_generado": false,
+  "git_ejecutado": false,
+  "nuevos_archivos_verificados": [
+    "INFORME_AUTORIZACION_TEST_FASE04.md",
+    "INFORME_PROCEDIMIENTO_REFERENCIA_FASE04.md",
+    "PROCEDIMIENTO_REFERENCIA_CONGELADO_FASE04.md",
+    "fase04_modelado/referencia_congelada/evidencia_congelacion.json",
+    "fase04_modelado/referencia_congelada/inventario_previo.json",
+    "fase04_modelado/referencia_congelada/manifiesto_entrega.json"
+  ]
+}
