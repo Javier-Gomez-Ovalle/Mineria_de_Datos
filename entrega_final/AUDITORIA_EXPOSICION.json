@@ -1,0 +1,179 @@
+{
+  "fecha": "2026-11-22",
+  "alcance": "main y su historial alcanzable; contenido test y predicciones excluidos antes de cualquier lectura",
+  "archivos": [
+    {
+      "archivo": "dataset_train_fase04.csv",
+      "bytes": 13218803,
+      "filas": 46305,
+      "sha256_local": "98d4d4970ada7bf11ec2e76f89e93c46c76c3d097043020598638547f977e53f",
+      "columnas": [
+        "User ID",
+        "IP Address",
+        "Login Timestamp",
+        "Login Successful",
+        "login_exitoso_normalizado",
+        "Device Type",
+        "Is Attack IP",
+        "Country",
+        "Region",
+        "City",
+        "ASN",
+        "ip_country_code",
+        "ip_country_name",
+        "ip_asn",
+        "ip_as_name",
+        "ip_as_domain",
+        "Nombre_Completo",
+        "Rol_Hospitalario",
+        "Pais_Residencia",
+        "Ciudad_Base",
+        "Turno_Asignado",
+        "Estado_Cuenta",
+        "Fecha_Ingreso",
+        "failed_attempts_15min",
+        "failed_attempts_1h",
+        "has_previous_login",
+        "previous_login_timestamp",
+        "time_since_previous_login_hours",
+        "distance_previous_km",
+        "required_speed_kmh",
+        "impossible_travel",
+        "is_outside_shift",
+        "country_mismatch",
+        "inactive_account_success",
+        "Is Account Takeover"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    },
+    {
+      "archivo": "empleados.csv",
+      "bytes": 188583,
+      "filas": 2000,
+      "sha256_local": "c0eee01a06161fede87d27672b67931db8ac26c5dc4c35761f7871284ade96aa",
+      "columnas": [
+        "User ID",
+        "Nombre_Completo",
+        "Rol_Hospitalario",
+        "Pais_Residencia",
+        "Ciudad_Base",
+        "Turno_Asignado",
+        "Estado_Cuenta",
+        "Fecha_Ingreso"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    },
+    {
+      "archivo": "fase04_modelado/mejora_controlada/resultados/distribucion_usuarios_train.csv",
+      "bytes": 42241,
+      "filas": 1600,
+      "sha256_local": "e4a15e58ab3ed5f83b90dd045ea93d2accb59a329ea15d00244765b2b4cdf791",
+      "columnas": [
+        "User ID",
+        "size",
+        "sum"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    },
+    {
+      "archivo": "fase04_modelado/mejora_controlada/resultados/metricas_por_usuario.csv",
+      "bytes": 677226,
+      "filas": 14400,
+      "sha256_local": "1ce6ce3ee0ae104ac195d1f50fb859922a1b2d54d8ed235ab1b8f0c3c28738e3",
+      "columnas": [
+        "User ID",
+        "eventos",
+        "ATO",
+        "TP",
+        "FP",
+        "FN",
+        "modelo"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    },
+    {
+      "archivo": "fase04_modelado/resultados_cv_usuario/asignacion_usuarios.csv",
+      "bytes": 48684,
+      "filas": 1600,
+      "sha256_local": "9e3992f88f252c37e10f1190cfe6f03ba63f4dfebc93cbaebdd0e0e05ad2cbf3",
+      "columnas": [
+        "User ID",
+        "usuario_con_ato",
+        "fold_validacion",
+        "eventos",
+        "eventos_ato"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    },
+    {
+      "archivo": "fase04_modelado/mejora_controlada/resultados/errores_historicos_por_perfil.csv",
+      "bytes": 682586,
+      "filas": 11655,
+      "sha256_local": "6dc4243a5d62f7e3e0ecc011a864a6eec3f5655129e54f0cd04dc31d8d572877",
+      "columnas": [
+        "modelo",
+        "perfil",
+        "valor",
+        "eventos",
+        "ATO",
+        "TP",
+        "FP",
+        "FN",
+        "FPR",
+        "recall"
+      ],
+      "commits_preexistentes": [
+        "17e2c72",
+        "babe98d",
+        "23e2320"
+      ],
+      "http_main_antes": 200,
+      "en_pages": false,
+      "accion": "Retirar solo del seguimiento; preservar original local",
+      "residual": "Accesible en historial; no purgado"
+    }
+  ],
+  "aprobada": false,
+  "historia_reescrita": false,
+  "respaldo": "Originales locales conservados en las mismas rutas; no se crean copias de test ni bundles generales"
+}

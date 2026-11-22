@@ -1,5 +1,7 @@
 # Detección académica de Account Takeover (ATO)
 
+> **Aviso de distribución (22/11/2026):** train, empleados y cuatro tablas con identificadores se retiran del árbol público actual; se conservan localmente. Sus versiones históricas aún requieren resolución. Antes de actualizar una copia que los tenga rastreados, resguárdalos privadamente. El frontend y los resultados agregados no cambian. Consulta la [auditoría de exposición y sus límites](entrega_final/AUDITORIA_EXPOSICION.md); las referencias históricas a estos archivos no garantizan su disponibilidad en una copia nueva.
+
 Proyecto de minería de datos con CRISP-DM para estudiar accesos a cuentas comprometidas. Su objetivo general es comparar métodos supervisados y explorar agrupaciones sobre eventos sintetizados. Los objetivos específicos son corregir la asociación evento–etiqueta, separar usuarios, prevenir fuga, comparar variantes y documentar una referencia evaluada una sola vez. No es un detector validado para producción.
 
 ## Metodología y resultados

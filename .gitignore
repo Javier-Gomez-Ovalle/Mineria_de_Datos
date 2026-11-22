@@ -532,3 +532,11 @@
 /entrega_final/renderizado/
 /entrega_final/__pycache__/
 /frontend/verificacion_navegador/
+
+# Retirada pública de datos individuales: originales locales conservados.
+/dataset_train_fase04.csv
+/empleados.csv
+/fase04_modelado/mejora_controlada/resultados/distribucion_usuarios_train.csv
+/fase04_modelado/mejora_controlada/resultados/metricas_por_usuario.csv
+/fase04_modelado/resultados_cv_usuario/asignacion_usuarios.csv
+/fase04_modelado/mejora_controlada/resultados/errores_historicos_por_perfil.csv
